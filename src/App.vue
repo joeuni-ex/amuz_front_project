@@ -2,7 +2,7 @@
   <!-- 네브바 -->
   <header
     :class="{ 'bg-black': !scrolled, 'bg-white': scrolled }"
-    class="fixed top-0 h-20 w-screen flex items-center border-b border-gray-300 duration-150 ease-in-out"
+    class="fixed top-0 z-20 h-20 w-screen flex items-center border-b border-gray-300 duration-150 ease-in-out"
   >
     <div class="w-36 mx-44">
       <LogoIcon />
