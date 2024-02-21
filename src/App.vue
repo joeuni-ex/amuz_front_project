@@ -126,39 +126,55 @@
     <!-- 세 번째 섹션 컨텐츠 -->
     <div class="flex flex-col w-4/5 mt-24">
       <div class="flex">
-        <div class="main-third-content1">
+        <div class="main-third-content1 relative">
           <div>
-            <p class="text-3xl font-bold">크레딧 구매 시, 보너스 크레딧 증정</p>
-            <p class="text-3xl font-bold">크레딧 상품을 구매하면 상품 별</p>
-            <p class="text-3xl font-bold">보너스 크레딧을 증정합니다</p>
+            <p class="text-3xl font-bold">자주 전송하는 내용이 있나요?</p>
+            <p class="text-3xl font-bold">템플릿으로 메시지 내용을</p>
+            <p class="text-3xl font-bold">저장하여 간편하게 전송하세요.</p>
           </div>
-          <img src="./assets/main-third-image1.png" class="main-third-image1" />
+          <img
+            src="./assets/main-third-image1.png"
+            class="main-third-image1 absolute bottom-0 right-0"
+          />
         </div>
-        <div class="main-third-content2">
+        <div class="main-third-content2 relative">
           <div>
             <p class="text-3xl font-bold">크레딧 구매 시, 보너스 크레딧 증정</p>
             <p class="text-3xl font-bold">크레딧 상품을 구매하면 상품 별</p>
             <p class="text-3xl font-bold">보너스 크레딧을 증정합니다</p>
           </div>
-          <img src="./assets/main-third-image2.png" class="main-third-image2" />
+          <img
+            src="./assets/main-third-image2.png"
+            class="main-third-image2 absolute bottom-0 right-10"
+          />
         </div>
       </div>
       <div class="flex mt-10">
-        <div class="main-third-content3">
+        <div class="main-third-content3 relative">
           <div>
-            <p class="text-3xl font-bold">크레딧 구매 시, 보너스 크레딧 증정</p>
-            <p class="text-3xl font-bold">크레딧 상품을 구매하면 상품 별</p>
-            <p class="text-3xl font-bold">보너스 크레딧을 증정합니다</p>
+            <p class="text-3xl font-bold">전송 후 바로 발송확인 기능</p>
+            <p class="text-3xl font-bold">
+              메시지 전송 후 바로 발송현황 창에서
+            </p>
+            <p class="text-3xl font-bold">
+              현재 메시지 전송 현황을 알려드립니다
+            </p>
           </div>
-          <img src="./assets/main-third-image3.png" class="main-third-image1" />
+          <img
+            src="./assets/main-third-image3.png"
+            class="main-third-image3 absolute bottom-0 right-0"
+          />
         </div>
-        <div class="main-third-content4">
+        <div class="main-third-content4 relative">
           <div>
-            <p class="text-3xl font-bold">크레딧 구매 시, 보너스 크레딧 증정</p>
-            <p class="text-3xl font-bold">크레딧 상품을 구매하면 상품 별</p>
-            <p class="text-3xl font-bold">보너스 크레딧을 증정합니다</p>
+            <p class="text-3xl font-bold">누르면 바로 전송완료</p>
+            <p class="text-3xl font-bold">누르자마자 수신인에게</p>
+            <p class="text-3xl font-bold">바로 전달됩니다</p>
           </div>
-          <img src="./assets/main-third-image4.png" class="main-third-image1" />
+          <img
+            src="./assets/main-third-image4.png"
+            class="main-third-image4 absolute bottom-0 right-14"
+          />
         </div>
       </div>
     </div>
@@ -177,7 +193,7 @@
     <!-- 네번 째 섹션 컨텐츠 -->
     <div class="flex mt-16">
       <div class="main-fourth-content1">
-        <div class="text-left space-y-3">
+        <div class="text-left space-y-3 mt-4">
           <p class="text-3xl font-bold">일반 SMS는 기본, 카카오톡까지</p>
           <p class="text-3xl font-bold text-gray-600">
             종류와 상관없이 모두 전송해 드립니다
@@ -186,7 +202,7 @@
         <img src="./assets/main-forth-image1.png" class="main-forth-image1" />
       </div>
       <div class="main-fourth-content2">
-        <div class="text-left space-y-3">
+        <div class="text-left space-y-3 mt-4">
           <p class="text-3xl font-bold text-mainBrown">
             강력한 보안을 제공합니다.
           </p>
@@ -203,7 +219,7 @@
       </div>
     </div>
     <div class="main-fourth-content3">
-      <div class="text-center space-y-3 mt-14">
+      <div class="text-center space-y-3 mt-16">
         <p class="text-3xl font-bold">놀라운 수신율을 경험해 보세요</p>
         <p class="text-3xl font-bold text-gray-600">
           샌드고의 정확한 수신율은 99.8%에 달합니다
@@ -304,6 +320,9 @@ export default {
 }
 /* 메인 세번 째 섹션 */
 .main-third-content1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 626px;
   height: 597px;
   background: #f8f9fa 0% 0% no-repeat padding-box;
@@ -358,13 +377,13 @@ export default {
 .main-fourth-content1 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background: #dceff4 0% 0% no-repeat padding-box;
   border-radius: 25px;
   opacity: 1;
   width: 688px;
   height: 597px;
+  padding: 54px;
 }
 .main-forth-image1 {
   margin-top: 60px;
@@ -374,7 +393,6 @@ export default {
 .main-fourth-content2 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   background: #fbfbef 0% 0% no-repeat padding-box;
   border-radius: 25px;
   opacity: 1;
