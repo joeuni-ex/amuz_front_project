@@ -6,6 +6,8 @@ export default {
       colors: {
         // 컬러 추가
         purple: "#6250FF",
+        lightPurple: "#F0F0FA",
+        darkGray: "#242424",
       },
     },
   },
