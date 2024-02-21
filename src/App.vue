@@ -41,7 +41,7 @@
     </div>
     <div></div>
   </div>
-  <!-- 두 번째 메인 섹션 -->
+  <!-- 메인 두 번째 섹션 -->
   <div
     class="w-screen h-screen bg-white flex flex-1 flex-col justify-center items-center space-y-14"
   >
@@ -112,10 +112,8 @@
       </div>
     </div>
   </div>
-  <!-- 세 번째 메인 섹션 -->
-  <div
-    class="flex flex-1 flex-col justify-center items-center w-screen h-screen"
-  >
+  <!-- 메인 세 번째 섹션 -->
+  <div class="flex flex-1 flex-col justify-center items-center w-screen">
     <!-- 세 번째 섹션 타이틀 -->
     <div class="flex flex-col items-center space-y-4">
       <img src="./assets/그룹 49921.png" class="w-16 h-16" />
@@ -126,30 +124,46 @@
       <p class="text-gray-500">고객님들의 입장에서 고민하였습니다.</p>
     </div>
     <!-- 세 번째 섹션 컨텐츠 -->
-    <div class="flex w-4/5">
-      <div class="main-image-container mx-">
-        <div>
-          <p>크레딧 구매 시, 보너스 크레딧 증정</p>
-          <p>크레딧 상품을 구매하면 상품 별</p>
-          <p>보너스 크레딧을 증정합니다</p>
+    <div class="flex flex-col w-4/5 mt-24">
+      <div class="flex">
+        <div class="main-third-content1">
+          <div>
+            <p class="text-3xl font-bold">크레딧 구매 시, 보너스 크레딧 증정</p>
+            <p class="text-3xl font-bold">크레딧 상품을 구매하면 상품 별</p>
+            <p class="text-3xl font-bold">보너스 크레딧을 증정합니다</p>
+          </div>
+          <img src="./assets/main-third-image1.png" class="main-third-image1" />
         </div>
-        <img src="./assets/마스크 그룹 140.png" />
-      </div>
-      <div class="main-image-container">
-        <div>
-          <p>크레딧 구매 시, 보너스 크레딧 증정</p>
-          <p>크레딧 상품을 구매하면 상품 별</p>
-          <p>보너스 크레딧을 증정합니다</p>
+        <div class="main-third-content2">
+          <div>
+            <p class="text-3xl font-bold">크레딧 구매 시, 보너스 크레딧 증정</p>
+            <p class="text-3xl font-bold">크레딧 상품을 구매하면 상품 별</p>
+            <p class="text-3xl font-bold">보너스 크레딧을 증정합니다</p>
+          </div>
+          <img src="./assets/main-third-image2.png" class="main-third-image2" />
         </div>
-        <img src="./assets/그룹 49952.png" class="main-image" />
       </div>
-      <div>
-        <div></div>
-        <div></div>
+      <div class="flex mt-10">
+        <div class="main-third-content3">
+          <div>
+            <p class="text-3xl font-bold">크레딧 구매 시, 보너스 크레딧 증정</p>
+            <p class="text-3xl font-bold">크레딧 상품을 구매하면 상품 별</p>
+            <p class="text-3xl font-bold">보너스 크레딧을 증정합니다</p>
+          </div>
+          <img src="./assets/main-third-image3.png" class="main-third-image1" />
+        </div>
+        <div class="main-third-content4">
+          <div>
+            <p class="text-3xl font-bold">크레딧 구매 시, 보너스 크레딧 증정</p>
+            <p class="text-3xl font-bold">크레딧 상품을 구매하면 상품 별</p>
+            <p class="text-3xl font-bold">보너스 크레딧을 증정합니다</p>
+          </div>
+          <img src="./assets/main-third-image4.png" class="main-third-image1" />
+        </div>
       </div>
     </div>
   </div>
-  <!-- 네번 째 메인 섹션 -->
+  <!--메인 네번 째 섹션 -->
   <div class="flex flex-1 flex-col justify-center items-center w-screen mt-80">
     <!-- 네번 째 섹션 타이틀 -->
     <div class="flex flex-col items-center space-y-4">
@@ -189,7 +203,7 @@
       </div>
     </div>
     <div class="main-fourth-content3">
-      <div class="text-center space-y-3">
+      <div class="text-center space-y-3 mt-14">
         <p class="text-3xl font-bold">놀라운 수신율을 경험해 보세요</p>
         <p class="text-3xl font-bold text-gray-600">
           샌드고의 정확한 수신율은 99.8%에 달합니다
@@ -199,7 +213,7 @@
     </div>
   </div>
 
-  <!-- 다섯 번째 메인 섹션 -->
+  <!--메인 다섯 번째 섹션 -->
   <div
     class="flex flex-1 flex-col bg-blackBg justify-center items-center w-screen h-screen mt-56"
   >
@@ -281,26 +295,66 @@ export default {
 <style>
 /* 텍스트 그라데이션 적용 */
 .hero-section-text {
-  font-size: 2.7rem;
+  font-size: 3.2rem;
   font-weight: bold;
   background: transparent linear-gradient(90deg, #b6b7f7 0%, #7fb2fe 100%) 0% 0%
     no-repeat padding-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.main-image-container {
+/* 메인 세번 째 섹션 */
+.main-third-content1 {
+  width: 626px;
+  height: 597px;
+  background: #f8f9fa 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  opacity: 1;
+  margin-right: 54px;
+}
+.main-third-image1 {
+  width: 572px;
+  height: 320px;
+  opacity: 1;
+}
+.main-third-content2 {
   width: 750px;
   height: 597px;
-  background-color: #e9ebfd;
-  position: relative;
+  background: #e9ebfd 0% 0% no-repeat padding-box;
   border-radius: 25px;
+  opacity: 1;
 }
-.main-image {
+.main-third-image2 {
   width: 644px;
   height: 321px;
-  position: absolute;
-  bottom: 0;
+  opacity: 1;
 }
+.main-third-content3 {
+  width: 855px;
+  height: 720px;
+  background: #dbe5ff 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  opacity: 1;
+  margin-right: 45px;
+}
+.main-third-image3 {
+  width: 798px;
+  height: 427px;
+  opacity: 1;
+}
+.main-third-content4 {
+  width: 520px;
+  height: 720px;
+  background: transparent linear-gradient(180deg, #fafaee 0%, #fbfbf0 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 25px;
+  opacity: 1;
+}
+.main-third-image4 {
+  width: 416px;
+  height: 432px;
+  opacity: 1;
+}
+/* 메인 네번 째 섹션 */
 .main-fourth-content1 {
   display: flex;
   flex-direction: column;
@@ -338,7 +392,6 @@ export default {
 .main-fourth-content3 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   position: relative;
   width: 1420px;
@@ -349,7 +402,8 @@ export default {
   margin-top: 44px;
 }
 .main-forth-image3 {
-  margin-top: 49px;
+  position: absolute;
+  bottom: 0;
   width: 704px;
   height: 286px;
 }
