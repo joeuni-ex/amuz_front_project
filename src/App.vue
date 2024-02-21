@@ -46,7 +46,7 @@
     class="w-screen h-screen bg-white flex flex-1 flex-col justify-center items-center space-y-14"
   >
     <div class="flex flex-col w-screen justify-center items-center space-y-6">
-      <img src="./assets/그룹 49920.png" class="w-16 h-16" />
+      <img src="./assets/main-second-icon1.png" class="w-16 h-16" />
       <div class="text-center space-y-3">
         <p class="text-5xl font-bold my-3">복잡한 인터넷 문자 서비스를</p>
         <p class="text-5xl font-bold my-3">간편하게 만나보세요.</p>
@@ -59,7 +59,7 @@
       <div
         class="main-second-content flex flex-col justify-center items-center space-y-4 mx-6"
       >
-        <img src="./assets/그룹 49917.png" class="w-16 h-16" />
+        <img src="./assets/main-second-icon2.png" class="w-16 h-16" />
         <div class="text-center">
           <p class="font-bold text-2xl">메시지 용량에</p>
           <p class="font-bold text-2xl">제한 받지 않고 전송</p>
@@ -77,7 +77,7 @@
       <div
         class="main-second-content flex flex-col justify-center items-center space-y-4 mx-6"
       >
-        <img src="./assets/그룹 49918.png" class="w-16 h-16" />
+        <img src="./assets/main-second-icon3.png" class="w-16 h-16" />
         <div class="text-center">
           <p class="font-bold text-2xl">메시지 용량에</p>
           <p class="font-bold text-2xl">제한 받지 않고 전송</p>
@@ -95,7 +95,7 @@
       <div
         class="main-second-content flex flex-col justify-center items-center space-y-4 mx-6"
       >
-        <img src="./assets/그룹 49919.png" class="w-16 h-16" />
+        <img src="./assets/main-second-icon4.png" class="w-16 h-16" />
         <div class="text-center">
           <p class="font-bold text-2xl">메시지 용량에</p>
           <p class="font-bold text-2xl">제한 받지 않고 전송</p>
@@ -116,7 +116,7 @@
   <div class="flex flex-1 flex-col justify-center items-center w-screen">
     <!-- 세 번째 섹션 타이틀 -->
     <div class="flex flex-col items-center space-y-6">
-      <img src="./assets/그룹 49921.png" class="w-16 h-16 mb-7" />
+      <img src="./assets/main-third-icon1.png" class="w-16 h-16 mb-7" />
       <div class="text-center space-y-3">
         <p class="font-bold text-5xl">샌드고의 다양한</p>
         <p class="font-bold text-5xl">기능들을 살펴보세요</p>
@@ -199,7 +199,7 @@
   <div class="flex flex-1 flex-col justify-center items-center w-screen mt-80">
     <!-- 네번 째 섹션 타이틀 -->
     <div class="flex flex-col items-center space-y-6">
-      <img src="./assets/그룹 49923.png" class="w-16 h-16 mb-7" />
+      <img src="./assets/main-forth-icon1.png" class="w-16 h-16 mb-7" />
       <div class="text-center space-y-3">
         <p class="font-bold text-5xl">정확도와 다양함은 물론</p>
         <p class="font-bold text-5xl">신뢰할 수 있는 보안까지</p>
@@ -299,7 +299,6 @@
 </template>
 <script>
 import LogoIcon from "./assets/logo.svg";
-import LogoIconGray from "./assets/logo-gray.svg";
 import { ref, onMounted, onBeforeUnmount } from "vue";
 
 export default {
