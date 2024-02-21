@@ -45,67 +45,67 @@
   <div
     class="w-screen h-screen bg-white flex flex-1 flex-col justify-center items-center space-y-14"
   >
-    <div class="flex flex-col w-screen justify-center items-center space-y-4">
+    <div class="flex flex-col w-screen justify-center items-center space-y-6">
       <img src="./assets/그룹 49920.png" class="w-16 h-16" />
-      <div class="text-center">
-        <p class="text-3xl font-bold my-3">복잡한 인터넷 문자 서비스를</p>
-        <p class="text-3xl font-bold my-3">간편하게 만나보세요.</p>
+      <div class="text-center space-y-3">
+        <p class="text-5xl font-bold my-3">복잡한 인터넷 문자 서비스를</p>
+        <p class="text-5xl font-bold my-3">간편하게 만나보세요.</p>
       </div>
 
-      <p class="text-gray-500">모든 종류의 인터넷 SMS를 편리하게.</p>
+      <p class="text-gray-500 text-xl">모든 종류의 인터넷 SMS를 편리하게.</p>
     </div>
     <!-- 두번 째 메인 섹션 카드들 -->
-    <div class="flex justify-around w-3/4 space-x-5">
+    <div class="flex justify-around">
       <div
-        class="w-96 h-80 bg-lightPurple rounded-3xl flex flex-col justify-center items-center space-y-3"
+        class="main-second-content flex flex-col justify-center items-center space-y-4 mx-6"
       >
         <img src="./assets/그룹 49917.png" class="w-16 h-16" />
         <div class="text-center">
-          <p class="font-bold text-xl">메시지 용량에</p>
-          <p class="font-bold text-xl">제한 받지 않고 전송</p>
+          <p class="font-bold text-2xl">메시지 용량에</p>
+          <p class="font-bold text-2xl">제한 받지 않고 전송</p>
         </div>
 
         <div class="text-center">
-          <p class="text-gray-500 font-semibold text-sm">
+          <p class="text-gray-500 font-semibold text-xl">
             메시지 용량 걱정없이 단문 메시지는
           </p>
-          <p class="text-gray-500 font-semibold text-sm">
+          <p class="text-gray-500 font-semibold text-xl">
             물론 장문, 사진까지 전송이 가능합니다.
           </p>
         </div>
       </div>
       <div
-        class="w-96 h-80 bg-lightPurple rounded-3xl flex flex-col justify-center items-center space-y-3"
+        class="main-second-content flex flex-col justify-center items-center space-y-4 mx-6"
       >
         <img src="./assets/그룹 49918.png" class="w-16 h-16" />
         <div class="text-center">
-          <p class="font-bold text-xl">메시지 용량에</p>
-          <p class="font-bold text-xl">제한 받지 않고 전송</p>
+          <p class="font-bold text-2xl">메시지 용량에</p>
+          <p class="font-bold text-2xl">제한 받지 않고 전송</p>
         </div>
 
         <div class="text-center">
-          <p class="text-gray-500 font-semibold text-sm">
+          <p class="text-gray-500 font-semibold text-xl">
             메시지 용량 걱정없이 단문 메시지는
           </p>
-          <p class="text-gray-500 font-semibold text-sm">
+          <p class="text-gray-500 font-semibold text-xl">
             물론 장문, 사진까지 전송이 가능합니다.
           </p>
         </div>
       </div>
       <div
-        class="w-96 h-80 bg-lightPurple rounded-3xl flex flex-col justify-center items-center space-y-3"
+        class="main-second-content flex flex-col justify-center items-center space-y-4 mx-6"
       >
         <img src="./assets/그룹 49919.png" class="w-16 h-16" />
         <div class="text-center">
-          <p class="font-bold text-xl">메시지 용량에</p>
-          <p class="font-bold text-xl">제한 받지 않고 전송</p>
+          <p class="font-bold text-2xl">메시지 용량에</p>
+          <p class="font-bold text-2xl">제한 받지 않고 전송</p>
         </div>
 
         <div class="text-center">
-          <p class="text-gray-500 font-semibold text-sm">
+          <p class="text-gray-500 font-semibold text-xl">
             메시지 용량 걱정없이 단문 메시지는
           </p>
-          <p class="text-gray-500 font-semibold text-sm">
+          <p class="text-gray-500 font-semibold text-xl">
             물론 장문, 사진까지 전송이 가능합니다.
           </p>
         </div>
@@ -212,8 +212,8 @@
     <div class="flex mt-16">
       <div class="main-fourth-content1">
         <div class="text-left space-y-3 mt-4">
-          <p class="text-4xl font-bold">일반 SMS는 기본, 카카오톡까지</p>
-          <p class="text-4xl font-bold text-gray-600">
+          <p class="text-3xl font-bold">일반 SMS는 기본, 카카오톡까지</p>
+          <p class="text-3xl font-bold text-gray-600">
             종류와 상관없이 모두 전송해 드립니다
           </p>
         </div>
@@ -254,9 +254,11 @@
     <!-- 다섯 번째 섹션 타이틀 -->
     <div class="flex flex-col items-center space-y-10">
       <div class="space-y-6">
-        <div class="text-center">
-          <p class="hero-section-text">비즈니스 광고의 시작</p>
-          <p class="hero-section-text">이제 샌드고와 함께 하세요</p>
+        <div class="text-center space-y-6">
+          <p class="gradation-text font-bold text-6xl">비즈니스 광고의 시작,</p>
+          <p class="gradation-text font-bold text-6xl">
+            이제 샌드고와 함께 하세요
+          </p>
         </div>
       </div>
       <div class="flex mt-6">
@@ -339,6 +341,15 @@ export default {
     0% no-repeat padding-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* 메인 두번 째 섹션 */
+.main-second-content {
+  width: 444px;
+  height: 349px;
+  background: #f0f0fa 0% 0% no-repeat padding-box;
+  border-radius: 28px;
+  opacity: 1;
 }
 
 /* 메인 세번 째 섹션 */
