@@ -113,7 +113,7 @@
     </div>
   </div>
   <!-- 메인 세 번째 섹션 -->
-  <div class="flex flex-1 flex-col justify-center items-center w-screen">
+  <div class="flex flex-1 flex-col justify-center items-center w-screen mt-44">
     <!-- 세 번째 섹션 타이틀 -->
     <div class="flex flex-col items-center space-y-6">
       <img src="./assets/main-third-icon1.png" class="w-16 h-16 mb-7" />
@@ -196,7 +196,7 @@
     </div>
   </div>
   <!--메인 네번 째 섹션 -->
-  <div class="flex flex-1 flex-col justify-center items-center w-screen mt-80">
+  <div class="flex flex-1 flex-col justify-center items-center w-screen mt-60">
     <!-- 네번 째 섹션 타이틀 -->
     <div class="flex flex-col items-center space-y-6">
       <img src="./assets/main-forth-icon1.png" class="w-16 h-16 mb-7" />
