@@ -115,19 +115,19 @@
   <!-- 메인 세 번째 섹션 -->
   <div class="flex flex-1 flex-col justify-center items-center w-screen">
     <!-- 세 번째 섹션 타이틀 -->
-    <div class="flex flex-col items-center space-y-4">
-      <img src="./assets/그룹 49921.png" class="w-16 h-16" />
-      <div class="text-center space-y-2">
-        <p class="font-bold text-3xl">샌드고의 다양한</p>
-        <p class="font-bold text-3xl">기능들을 살펴보세요</p>
+    <div class="flex flex-col items-center space-y-6">
+      <img src="./assets/그룹 49921.png" class="w-16 h-16 mb-7" />
+      <div class="text-center space-y-3">
+        <p class="font-bold text-5xl">샌드고의 다양한</p>
+        <p class="font-bold text-5xl">기능들을 살펴보세요</p>
       </div>
-      <p class="text-gray-500">고객님들의 입장에서 고민하였습니다.</p>
+      <p class="text-gray-500 text-xl">고객님들의 입장에서 고민하였습니다.</p>
     </div>
     <!-- 세 번째 섹션 컨텐츠 -->
     <div class="flex flex-col mt-24">
       <div class="flex">
         <div class="main-third-content1 relative">
-          <div class="mt-4 space-y-2">
+          <div class="mt-4 space-y-3">
             <p class="text-3xl font-bold">자주 전송하는 내용이 있나요?</p>
             <p class="text-3xl font-bold text-mainGray">
               템플릿으로 메시지 내용을
@@ -142,10 +142,16 @@
           />
         </div>
         <div class="main-third-content2 relative">
-          <div class="mt-4 space-y-2">
-            <p class="text-3xl font-bold">크레딧 구매 시, 보너스 크레딧 증정</p>
-            <p class="text-3xl font-bold">크레딧 상품을 구매하면 상품 별</p>
-            <p class="text-3xl font-bold">보너스 크레딧을 증정합니다</p>
+          <div class="mt-4 space-y-3">
+            <p class="text-3xl font-bold gradation-text2">
+              크레딧 구매 시, 보너스 크레딧 증정
+            </p>
+            <p class="text-3xl font-bold text-mainPurple">
+              크레딧 상품을 구매하면 상품 별
+            </p>
+            <p class="text-3xl font-bold text-mainPurple">
+              보너스 크레딧을 증정합니다
+            </p>
           </div>
           <img
             src="./assets/main-third-image2.png"
@@ -155,12 +161,14 @@
       </div>
       <div class="flex mt-10">
         <div class="main-third-content3 relative">
-          <div class="mt-4 space-y-2">
-            <p class="text-3xl font-bold">전송 후 바로 발송확인 기능</p>
-            <p class="text-3xl font-bold">
+          <div class="mt-4 space-y-3">
+            <p class="text-3xl font-bold text-mainBlue">
+              전송 후 바로 발송확인 기능
+            </p>
+            <p class="text-3xl font-bold text-mainLightBlue">
               메시지 전송 후 바로 발송현황 창에서
             </p>
-            <p class="text-3xl font-bold">
+            <p class="text-3xl font-bold text-mainLightBlue">
               현재 메시지 전송 현황을 알려드립니다
             </p>
           </div>
@@ -170,10 +178,14 @@
           />
         </div>
         <div class="main-third-content4 relative">
-          <div class="mt-4 space-y-2">
-            <p class="text-3xl font-bold">누르면 바로 전송완료</p>
-            <p class="text-3xl font-bold">누르자마자 수신인에게</p>
-            <p class="text-3xl font-bold">바로 전달됩니다</p>
+          <div class="mt-4 space-y-3">
+            <p class="text-3xl font-bold text-mainThirdBrown">
+              누르면 바로 전송완료
+            </p>
+            <p class="text-3xl font-bold text-lightGray">
+              누르자마자 수신인에게
+            </p>
+            <p class="text-3xl font-bold text-lightGray">바로 전달됩니다</p>
           </div>
           <img
             src="./assets/main-third-image4.png"
@@ -186,20 +198,22 @@
   <!--메인 네번 째 섹션 -->
   <div class="flex flex-1 flex-col justify-center items-center w-screen mt-80">
     <!-- 네번 째 섹션 타이틀 -->
-    <div class="flex flex-col items-center space-y-4">
-      <img src="./assets/그룹 49923.png" class="w-16 h-16" />
-      <div class="text-center space-y-2">
-        <p class="font-bold text-3xl">정확도와 다양함은 물론</p>
-        <p class="font-bold text-3xl">신뢰할 수 있는 보안까지</p>
+    <div class="flex flex-col items-center space-y-6">
+      <img src="./assets/그룹 49923.png" class="w-16 h-16 mb-7" />
+      <div class="text-center space-y-3">
+        <p class="font-bold text-5xl">정확도와 다양함은 물론</p>
+        <p class="font-bold text-5xl">신뢰할 수 있는 보안까지</p>
       </div>
-      <p class="text-2xl text-gray-500">고객님들의 간편함을 고민하였습니다</p>
+      <p class="text-xl mt-6 text-gray-500">
+        고객님들의 간편함을 고민하였습니다
+      </p>
     </div>
     <!-- 네번 째 섹션 컨텐츠 -->
     <div class="flex mt-16">
       <div class="main-fourth-content1">
         <div class="text-left space-y-3 mt-4">
-          <p class="text-3xl font-bold">일반 SMS는 기본, 카카오톡까지</p>
-          <p class="text-3xl font-bold text-gray-600">
+          <p class="text-4xl font-bold">일반 SMS는 기본, 카카오톡까지</p>
+          <p class="text-4xl font-bold text-gray-600">
             종류와 상관없이 모두 전송해 드립니다
           </p>
         </div>
@@ -320,6 +334,13 @@ export default {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.gradation-text2 {
+  background: transparent linear-gradient(270deg, #6264f6 0%, #7f3add 100%) 0%
+    0% no-repeat padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* 메인 세번 째 섹션 */
 .main-third-content1 {
   display: flex;
