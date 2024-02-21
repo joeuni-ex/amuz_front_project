@@ -18,14 +18,14 @@
   <!-- 히어로 섹션 -->
   <div class="w-screen h-screen bg-black flex flex-1">
     <div class="flex w-1/2 justify-center items-center">
-      <div class="space-y-6">
+      <div class="space-y-10">
         <span class="text-white">인터넷 문자 메시지 전송의 모든 것</span>
-        <div>
-          <p class="hero-section-text">가장 빠르고 안정적인</p>
-          <p class="hero-section-text">문자 서비스 SENDGO</p>
+        <div class="space-y-7">
+          <p class="gradation-text text-6xl font-bold">가장 빠르고 안정적인</p>
+          <p class="gradation-text text-6xl font-bold">문자 서비스 SENDGO</p>
         </div>
 
-        <div class="flex mt-6">
+        <div class="flex mt-16">
           <button
             class="w-52 h-16 py-4 mx-2 rounded-full bg-purple text-white text-center"
           >
@@ -124,13 +124,17 @@
       <p class="text-gray-500">고객님들의 입장에서 고민하였습니다.</p>
     </div>
     <!-- 세 번째 섹션 컨텐츠 -->
-    <div class="flex flex-col w-4/5 mt-24">
+    <div class="flex flex-col mt-24">
       <div class="flex">
         <div class="main-third-content1 relative">
-          <div>
+          <div class="mt-4 space-y-2">
             <p class="text-3xl font-bold">자주 전송하는 내용이 있나요?</p>
-            <p class="text-3xl font-bold">템플릿으로 메시지 내용을</p>
-            <p class="text-3xl font-bold">저장하여 간편하게 전송하세요.</p>
+            <p class="text-3xl font-bold text-mainGray">
+              템플릿으로 메시지 내용을
+            </p>
+            <p class="text-3xl font-bold text-mainGray">
+              저장하여 간편하게 전송하세요.
+            </p>
           </div>
           <img
             src="./assets/main-third-image1.png"
@@ -138,7 +142,7 @@
           />
         </div>
         <div class="main-third-content2 relative">
-          <div>
+          <div class="mt-4 space-y-2">
             <p class="text-3xl font-bold">크레딧 구매 시, 보너스 크레딧 증정</p>
             <p class="text-3xl font-bold">크레딧 상품을 구매하면 상품 별</p>
             <p class="text-3xl font-bold">보너스 크레딧을 증정합니다</p>
@@ -151,7 +155,7 @@
       </div>
       <div class="flex mt-10">
         <div class="main-third-content3 relative">
-          <div>
+          <div class="mt-4 space-y-2">
             <p class="text-3xl font-bold">전송 후 바로 발송확인 기능</p>
             <p class="text-3xl font-bold">
               메시지 전송 후 바로 발송현황 창에서
@@ -166,7 +170,7 @@
           />
         </div>
         <div class="main-third-content4 relative">
-          <div>
+          <div class="mt-4 space-y-2">
             <p class="text-3xl font-bold">누르면 바로 전송완료</p>
             <p class="text-3xl font-bold">누르자마자 수신인에게</p>
             <p class="text-3xl font-bold">바로 전달됩니다</p>
@@ -310,9 +314,7 @@ export default {
 </script>
 <style>
 /* 텍스트 그라데이션 적용 */
-.hero-section-text {
-  font-size: 3.2rem;
-  font-weight: bold;
+.gradation-text {
   background: transparent linear-gradient(90deg, #b6b7f7 0%, #7fb2fe 100%) 0% 0%
     no-repeat padding-box;
   -webkit-background-clip: text;
@@ -322,12 +324,12 @@ export default {
 .main-third-content1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 626px;
   height: 597px;
   background: #f8f9fa 0% 0% no-repeat padding-box;
   border-radius: 25px;
   opacity: 1;
+  padding: 54px;
   margin-right: 54px;
 }
 .main-third-image1 {
@@ -341,6 +343,7 @@ export default {
   background: #e9ebfd 0% 0% no-repeat padding-box;
   border-radius: 25px;
   opacity: 1;
+  padding: 54px;
 }
 .main-third-image2 {
   width: 644px;
@@ -354,6 +357,7 @@ export default {
   border-radius: 25px;
   opacity: 1;
   margin-right: 45px;
+  padding: 54px;
 }
 .main-third-image3 {
   width: 798px;
@@ -367,6 +371,7 @@ export default {
     0% no-repeat padding-box;
   border-radius: 25px;
   opacity: 1;
+  padding: 54px;
 }
 .main-third-image4 {
   width: 416px;
