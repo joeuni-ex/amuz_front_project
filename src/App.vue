@@ -41,7 +41,7 @@
     </div>
     <div></div>
   </div>
-  <!-- 두번 째 메인 섹션 -->
+  <!-- 두 번째 메인 섹션 -->
   <div
     class="w-screen h-screen bg-white flex flex-1 flex-col justify-center items-center space-y-14"
   >
@@ -112,11 +112,11 @@
       </div>
     </div>
   </div>
-  <!-- 세번 째 메인 섹션 -->
+  <!-- 세 번째 메인 섹션 -->
   <div
     class="flex flex-1 flex-col justify-center items-center w-screen h-screen"
   >
-    <!-- 세번 째 섹션 타이틀 -->
+    <!-- 세 번째 섹션 타이틀 -->
     <div class="flex flex-col items-center space-y-4">
       <img src="./assets/그룹 49921.png" class="w-16 h-16" />
       <div class="text-center space-y-2">
@@ -125,7 +125,7 @@
       </div>
       <p class="text-gray-500">고객님들의 입장에서 고민하였습니다.</p>
     </div>
-    <!-- 세번 째 섹션 컨텐츠 -->
+    <!-- 세 번째 섹션 컨텐츠 -->
     <div class="flex w-4/5">
       <div class="main-image-container mx-">
         <div>
@@ -150,9 +150,7 @@
     </div>
   </div>
   <!-- 네번 째 메인 섹션 -->
-  <div
-    class="flex flex-1 flex-col justify-center items-center w-screen h-screen"
-  >
+  <div class="flex flex-1 flex-col justify-center items-center w-screen mt-80">
     <!-- 네번 째 섹션 타이틀 -->
     <div class="flex flex-col items-center space-y-4">
       <img src="./assets/그룹 49923.png" class="w-16 h-16" />
@@ -160,16 +158,52 @@
         <p class="font-bold text-3xl">정확도와 다양함은 물론</p>
         <p class="font-bold text-3xl">신뢰할 수 있는 보안까지</p>
       </div>
-      <p class="text-gray-500">고객님들의 간편함을 고민하였습니다</p>
+      <p class="text-2xl text-gray-500">고객님들의 간편함을 고민하였습니다</p>
     </div>
     <!-- 네번 째 섹션 컨텐츠 -->
+    <div class="flex mt-16">
+      <div class="main-fourth-content1">
+        <div class="text-left space-y-3">
+          <p class="text-3xl font-bold">일반 SMS는 기본, 카카오톡까지</p>
+          <p class="text-3xl font-bold text-gray-600">
+            종류와 상관없이 모두 전송해 드립니다
+          </p>
+        </div>
+        <img src="./assets/main-forth-image1.png" class="main-forth-image1" />
+      </div>
+      <div class="main-fourth-content2">
+        <div class="text-left space-y-3">
+          <p class="text-3xl font-bold text-mainBrown">
+            강력한 보안을 제공합니다.
+          </p>
+          <p class="text-3xl font-bold text-lightBrown">
+            신뢰할 수 있는 최신의 보안 시스템을
+          </p>
+          <p class="text-3xl font-bold text-lightBrown">
+            적용하여 개인정보를 보호합니다
+          </p>
+        </div>
+        <div class="w-full flex justify-end">
+          <img src="./assets/main-forth-image2.png" class="main-forth-image2" />
+        </div>
+      </div>
+    </div>
+    <div class="main-fourth-content3">
+      <div class="text-center space-y-3">
+        <p class="text-3xl font-bold">놀라운 수신율을 경험해 보세요</p>
+        <p class="text-3xl font-bold text-gray-600">
+          샌드고의 정확한 수신율은 99.8%에 달합니다
+        </p>
+      </div>
+      <img src="./assets/main-forth-image3.png" class="main-forth-image3" />
+    </div>
   </div>
 
   <!-- 다섯 번째 메인 섹션 -->
   <div
-    class="flex flex-1 flex-col bg-blackBg justify-center items-center w-screen h-screen"
+    class="flex flex-1 flex-col bg-blackBg justify-center items-center w-screen h-screen mt-56"
   >
-    <!-- 다섯 째 섹션 타이틀 -->
+    <!-- 다섯 번째 섹션 타이틀 -->
     <div class="flex flex-col items-center space-y-10">
       <div class="space-y-6">
         <div class="text-center">
@@ -266,5 +300,57 @@ export default {
   height: 321px;
   position: absolute;
   bottom: 0;
+}
+.main-fourth-content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #dceff4 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  opacity: 1;
+  width: 688px;
+  height: 597px;
+}
+.main-forth-image1 {
+  margin-top: 60px;
+  width: 342px;
+  height: 310px;
+}
+.main-fourth-content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fbfbef 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  opacity: 1;
+  width: 688px;
+  height: 597px;
+  padding: 54px;
+  margin-left: 44px;
+}
+.main-forth-image2 {
+  margin-top: 50px;
+  margin-right: 55px;
+  width: 285px;
+  height: 317px;
+}
+.main-fourth-content3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1420px;
+  height: 495px;
+  background: #f8f9fa 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  opacity: 1;
+  margin-top: 44px;
+}
+.main-forth-image3 {
+  margin-top: 49px;
+  width: 704px;
+  height: 286px;
 }
 </style>
