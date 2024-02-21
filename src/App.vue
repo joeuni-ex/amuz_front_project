@@ -1,18 +1,20 @@
 <template>
   <!-- 네브바 -->
   <header
-    class="fixed top-0 h-20 w-screen flex items-center bg-black border-b border-gray-300"
+    :class="{ 'bg-black': !scrolled, 'bg-white': scrolled }"
+    class="fixed top-0 h-20 w-screen flex items-center border-b border-gray-300 duration-150 ease-in-out"
   >
-    <div class="text-white w-36 mx-44">
+    <div class="w-36 mx-44">
       <LogoIcon />
     </div>
     <nav>
-      <ul>
-        <li class="text-gray-300 inline-block w-14 mr-24">메세지</li>
-        <li class="text-gray-300 inline-block w-14 mr-24">크레딧</li>
+      <ul :class="{ 'text-gray-300': !scrolled, 'text-black': scrolled }">
+        <li class="inline-block w-14 mr-24">메세지</li>
+        <li class="inline-block w-14 mr-24">크레딧</li>
       </ul>
     </nav>
   </header>
+
   <!-- 히어로 섹션 -->
   <div class="w-screen h-screen bg-black flex flex-1">
     <div class="flex w-1/2 justify-center items-center">
@@ -184,13 +186,38 @@
       </div>
     </div>
   </div>
+  <!-- footer -->
+  <footer class="w-screen h-72 flex flex-1 flex-col bg-footerBg">
+    <div class="border-b border-gray-500"></div>
+    <div></div>
+  </footer>
 </template>
 <script>
 import LogoIcon from "./assets/logo.svg";
+import { ref, onMounted, onBeforeUnmount } from "vue";
 
 export default {
   components: {
     LogoIcon,
+  },
+  setup() {
+    const scrolled = ref(false);
+
+    const handleScroll = () => {
+      scrolled.value = window.scrollY > 0;
+    };
+
+    onMounted(() => {
+      window.addEventListener("scroll", handleScroll);
+    });
+
+    onBeforeUnmount(() => {
+      window.removeEventListener("scroll", handleScroll);
+    });
+
+    return {
+      scrolled,
+    };
   },
 };
 </script>
