@@ -17,6 +17,7 @@ export default {
         mainPurple: "#7079CB",
         buttonPurple: "#4F44F0",
         buttonPurple2: "#5146F0",
+        buttonPurple3: "#5E2BFF",
         darkPurple: "#2116BF",
         darkGray: "#242424",
         lightGray: "#6F6F6F",
