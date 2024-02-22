@@ -18,7 +18,6 @@
         >
       </div>
       <div class="flex space-x-7 flex-wrap">
-        <!-- 1 -->
         <CreditCard
           price="30,000"
           count="66,667"
