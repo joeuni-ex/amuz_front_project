@@ -17,29 +17,41 @@
 
   <!-- 히어로 섹션 -->
   <div class="w-screen h-screen bg-black flex flex-1">
+    <!-- 왼쪽 -->
     <div class="flex w-1/2 justify-center items-center">
       <div class="space-y-10">
-        <span class="text-white">인터넷 문자 메시지 전송의 모든 것</span>
+        <span class="text-gray-100 text-2xl"
+          >인터넷 문자 메시지 전송의 모든 것</span
+        >
         <div class="space-y-7">
-          <p class="gradation-text text-6xl font-bold">가장 빠르고 안정적인</p>
-          <p class="gradation-text text-6xl font-bold">문자 서비스 SENDGO</p>
+          <p class="gradation-text text-6xl font-PretendardExtraBold">
+            가장 빠르고 안정적인
+          </p>
+          <p class="gradation-text text-6xl font-PretendardExtraBold">
+            문자 서비스 SENDGO
+          </p>
         </div>
 
         <div class="flex mt-16">
           <button
-            class="w-52 h-16 py-4 mx-2 rounded-full bg-purple text-white text-center"
+            class="w-52 h-16 py-4 mx-2 rounded-full bg-purple text-white text-center text-xl"
           >
             회원가입
           </button>
           <button
-            class="w-52 h-16 py-4 mx-2 rounded-full bg-darkGray text-gray-300 text-center"
+            class="w-52 h-16 py-4 mx-2 rounded-full bg-darkGray text-gray-300 text-center text-xl"
           >
             로그인
           </button>
         </div>
       </div>
     </div>
-    <div></div>
+    <!-- 오른쪽 -->
+    <div class="flex w-1/2 justify-center items-center bg-slate-400">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
   </div>
   <!-- 메인 두 번째 섹션 -->
   <div
@@ -48,8 +60,10 @@
     <div class="flex flex-col w-screen justify-center items-center space-y-6">
       <img src="./assets/main-second-icon1.png" class="w-16 h-16" />
       <div class="text-center space-y-3">
-        <p class="text-5xl font-bold my-3">복잡한 인터넷 문자 서비스를</p>
-        <p class="text-5xl font-bold my-3">간편하게 만나보세요.</p>
+        <p class="text-5xl font-PretendardBold my-3">
+          복잡한 인터넷 문자 서비스를
+        </p>
+        <p class="text-5xl font-PretendardBold my-3">간편하게 만나보세요.</p>
       </div>
 
       <p class="text-gray-500 text-xl">모든 종류의 인터넷 SMS를 편리하게.</p>
@@ -61,15 +75,15 @@
       >
         <img src="./assets/main-second-icon2.png" class="w-16 h-16" />
         <div class="text-center">
-          <p class="font-bold text-2xl">메시지 용량에</p>
-          <p class="font-bold text-2xl">제한 받지 않고 전송</p>
+          <p class="font-PretendardSemiBold text-2xl">메시지 용량에</p>
+          <p class="font-PretendardSemiBold text-2xl">제한 받지 않고 전송</p>
         </div>
 
         <div class="text-center">
-          <p class="text-gray-500 font-semibold text-xl">
+          <p class="font-PretendardMedium text-gray-500 text-xl">
             메시지 용량 걱정없이 단문 메시지는
           </p>
-          <p class="text-gray-500 font-semibold text-xl">
+          <p class="font-PretendardMedium text-gray-500 text-xl">
             물론 장문, 사진까지 전송이 가능합니다.
           </p>
         </div>
@@ -79,15 +93,15 @@
       >
         <img src="./assets/main-second-icon3.png" class="w-16 h-16" />
         <div class="text-center">
-          <p class="font-bold text-2xl">메시지 용량에</p>
-          <p class="font-bold text-2xl">제한 받지 않고 전송</p>
+          <p class="font-PretendardSemiBold text-2xl">메시지 용량에</p>
+          <p class="font-PretendardSemiBold text-2xl">제한 받지 않고 전송</p>
         </div>
 
         <div class="text-center">
-          <p class="text-gray-500 font-semibold text-xl">
+          <p class="font-PretendardMedium text-gray-500 text-xl">
             메시지 용량 걱정없이 단문 메시지는
           </p>
-          <p class="text-gray-500 font-semibold text-xl">
+          <p class="font-PretendardMedium text-gray-500 text-xl">
             물론 장문, 사진까지 전송이 가능합니다.
           </p>
         </div>
@@ -97,15 +111,15 @@
       >
         <img src="./assets/main-second-icon4.png" class="w-16 h-16" />
         <div class="text-center">
-          <p class="font-bold text-2xl">메시지 용량에</p>
-          <p class="font-bold text-2xl">제한 받지 않고 전송</p>
+          <p class="font-PretendardSemiBold text-2xl">메시지 용량에</p>
+          <p class="font-PretendardSemiBold text-2xl">제한 받지 않고 전송</p>
         </div>
 
         <div class="text-center">
-          <p class="text-gray-500 font-semibold text-xl">
+          <p class="font-PretendardMedium text-gray-500 text-xl">
             메시지 용량 걱정없이 단문 메시지는
           </p>
-          <p class="text-gray-500 font-semibold text-xl">
+          <p class="font-PretendardMedium text-gray-500 text-xl">
             물론 장문, 사진까지 전송이 가능합니다.
           </p>
         </div>
@@ -118,8 +132,8 @@
     <div class="flex flex-col items-center space-y-6">
       <img src="./assets/main-third-icon1.png" class="w-16 h-16 mb-7" />
       <div class="text-center space-y-3">
-        <p class="font-bold text-5xl">샌드고의 다양한</p>
-        <p class="font-bold text-5xl">기능들을 살펴보세요</p>
+        <p class="font-PretendardBold text-5xl">샌드고의 다양한</p>
+        <p class="font-PretendardBold text-5xl">기능들을 살펴보세요</p>
       </div>
       <p class="text-gray-500 text-xl">고객님들의 입장에서 고민하였습니다.</p>
     </div>
@@ -127,12 +141,14 @@
     <div class="flex flex-col mt-24">
       <div class="flex">
         <div class="main-third-content1 relative">
-          <div class="mt-4 space-y-3">
-            <p class="text-3xl font-bold">자주 전송하는 내용이 있나요?</p>
-            <p class="text-3xl font-bold text-mainGray">
+          <div class="mt-4 space-y-1">
+            <p class="text-3xl font-PretendardBold">
+              자주 전송하는 내용이 있나요?
+            </p>
+            <p class="text-3xl font-PretendardBold text-mainGray">
               템플릿으로 메시지 내용을
             </p>
-            <p class="text-3xl font-bold text-mainGray">
+            <p class="text-3xl font-PretendardBold text-mainGray">
               저장하여 간편하게 전송하세요.
             </p>
           </div>
@@ -142,14 +158,14 @@
           />
         </div>
         <div class="main-third-content2 relative">
-          <div class="mt-4 space-y-3">
-            <p class="text-3xl font-bold gradation-text2">
+          <div class="mt-4 space-y-1">
+            <p class="text-3xl font-PretendardBold gradation-text2">
               크레딧 구매 시, 보너스 크레딧 증정
             </p>
-            <p class="text-3xl font-bold text-mainPurple">
+            <p class="text-3xl font-PretendardBold text-mainPurple">
               크레딧 상품을 구매하면 상품 별
             </p>
-            <p class="text-3xl font-bold text-mainPurple">
+            <p class="text-3xl font-PretendardBold text-mainPurple">
               보너스 크레딧을 증정합니다
             </p>
           </div>
@@ -161,14 +177,14 @@
       </div>
       <div class="flex mt-10">
         <div class="main-third-content3 relative">
-          <div class="mt-4 space-y-3">
-            <p class="text-3xl font-bold text-mainBlue">
+          <div class="mt-4 space-y-1">
+            <p class="text-3xl font-PretendardBold text-mainBlue">
               전송 후 바로 발송확인 기능
             </p>
-            <p class="text-3xl font-bold text-mainLightBlue">
+            <p class="text-3xl font-PretendardBold text-mainLightBlue">
               메시지 전송 후 바로 발송현황 창에서
             </p>
-            <p class="text-3xl font-bold text-mainLightBlue">
+            <p class="text-3xl font-PretendardBold text-mainLightBlue">
               현재 메시지 전송 현황을 알려드립니다
             </p>
           </div>
@@ -178,14 +194,16 @@
           />
         </div>
         <div class="main-third-content4 relative">
-          <div class="mt-4 space-y-3">
-            <p class="text-3xl font-bold text-mainThirdBrown">
+          <div class="mt-4 space-y-1">
+            <p class="text-3xl font-PretendardBold text-mainThirdBrown">
               누르면 바로 전송완료
             </p>
-            <p class="text-3xl font-bold text-lightGray">
+            <p class="text-3xl font-PretendardBold text-lightGray">
               누르자마자 수신인에게
             </p>
-            <p class="text-3xl font-bold text-lightGray">바로 전달됩니다</p>
+            <p class="text-3xl font-PretendardBold text-lightGray">
+              바로 전달됩니다
+            </p>
           </div>
           <img
             src="./assets/main-third-image4.png"
@@ -201,8 +219,8 @@
     <div class="flex flex-col items-center space-y-6">
       <img src="./assets/main-forth-icon1.png" class="w-16 h-16 mb-7" />
       <div class="text-center space-y-3">
-        <p class="font-bold text-5xl">정확도와 다양함은 물론</p>
-        <p class="font-bold text-5xl">신뢰할 수 있는 보안까지</p>
+        <p class="font-PretendardBold text-5xl">정확도와 다양함은 물론</p>
+        <p class="font-PretendardBold text-5xl">신뢰할 수 있는 보안까지</p>
       </div>
       <p class="text-xl mt-6 text-gray-500">
         고객님들의 간편함을 고민하였습니다
@@ -212,8 +230,10 @@
     <div class="flex mt-16">
       <div class="main-fourth-content1">
         <div class="text-left space-y-3 mt-4">
-          <p class="text-3xl font-bold">일반 SMS는 기본, 카카오톡까지</p>
-          <p class="text-3xl font-bold text-gray-600">
+          <p class="text-3xl font-PretendardBold">
+            일반 SMS는 기본, 카카오톡까지
+          </p>
+          <p class="text-3xl font-PretendardBold text-gray-600">
             종류와 상관없이 모두 전송해 드립니다
           </p>
         </div>
@@ -221,13 +241,13 @@
       </div>
       <div class="main-fourth-content2">
         <div class="text-left space-y-3 mt-4">
-          <p class="text-3xl font-bold text-mainBrown">
+          <p class="text-3xl font-PretendardBold text-mainBrown">
             강력한 보안을 제공합니다.
           </p>
-          <p class="text-3xl font-bold text-lightBrown">
+          <p class="text-3xl font-PretendardBold text-lightBrown">
             신뢰할 수 있는 최신의 보안 시스템을
           </p>
-          <p class="text-3xl font-bold text-lightBrown">
+          <p class="text-3xl font-PretendardBold text-lightBrown">
             적용하여 개인정보를 보호합니다
           </p>
         </div>
@@ -238,8 +258,10 @@
     </div>
     <div class="main-fourth-content3">
       <div class="text-center space-y-3 mt-16">
-        <p class="text-3xl font-bold">놀라운 수신율을 경험해 보세요</p>
-        <p class="text-3xl font-bold text-gray-600">
+        <p class="text-3xl font-PretendardBold">
+          놀라운 수신율을 경험해 보세요
+        </p>
+        <p class="text-3xl font-PretendardBold text-gray-600">
           샌드고의 정확한 수신율은 99.8%에 달합니다
         </p>
       </div>
@@ -255,7 +277,9 @@
     <div class="flex flex-col items-center space-y-10">
       <div class="space-y-6">
         <div class="text-center space-y-6">
-          <p class="gradation-text font-bold text-6xl">비즈니스 광고의 시작,</p>
+          <p class="gradation-text font-PretendardBold text-6xl">
+            비즈니스 광고의 시작,
+          </p>
           <p class="gradation-text font-bold text-6xl">
             이제 샌드고와 함께 하세요
           </p>
@@ -263,9 +287,9 @@
       </div>
       <div class="flex mt-6">
         <button
-          class="w-52 h-16 py-4 mx-2 rounded-full bg-purple text-white text-center"
+          class="w-52 h-16 py-4 mx-2 rounded-full bg-purple text-white text-center text-xl"
         >
-          회원가입
+          메시지 바로가기
         </button>
       </div>
     </div>
