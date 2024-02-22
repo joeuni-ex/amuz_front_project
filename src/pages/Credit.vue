@@ -17,7 +17,7 @@
           >메시지 전송을 위해 사용할 크레딧 상품을 선택해 주세요</span
         >
       </div>
-      <div class="flex space-x-7">
+      <div class="flex space-x-7 flex-wrap">
         <!-- 1 -->
         <CreditCard
           price="30,000"
