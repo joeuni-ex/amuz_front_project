@@ -7,19 +7,19 @@ const routes = [
   {
     path: "/",
     component: Home,
-    meta: { isMenu: false },
+    meta: { isMenu: false, dark: true },
   },
   {
     path: "/message",
     component: Message,
     title: "메시지",
-    meta: { isMenu: true },
+    meta: { isMenu: true, dark: false },
   },
   {
     path: "/credit",
     component: Credit,
     title: "크레딧",
-    meta: { isMenu: true },
+    meta: { isMenu: true, dark: false },
   },
 ];
 
