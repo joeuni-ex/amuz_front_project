@@ -2,6 +2,14 @@
   <div
     class="w-screen h-screen bg-pageBgGray flex flex-1 flex-col items-center pt-20"
   >
+    <div
+      class="flex flex-1 items-center justify-center bg-white space-x-10 w-full h-24 py-2"
+    >
+      <div class="h-14 flex justify-center items-center">메시지 전송</div>
+      <div class="h-14 flex justify-center items-center">발신번호 관리</div>
+      <div class="h-14 flex justify-center items-center">주소록 관리</div>
+      <div class="h-14 flex justify-center items-center">발송결과</div>
+    </div>
     <div class="flex h-full justify-center items-center flex-col space-y-12">
       <div class="flex flex-col space-y-5 text-center">
         <p class="text-4xl font-PretendardBold">크레딧 구매</p>
@@ -11,139 +19,45 @@
       </div>
       <div class="flex space-x-7">
         <!-- 1 -->
-        <div class="flex flex-col justify-between credit-content p-8">
-          <p class="text-3xl font-PretendardBold">30,000 원</p>
-          <div>
-            <p class="text-lg text-gray-500">총 66,667건 발송가능합니다</p>
-            <p class="text-lg text-gray-500">1건당 15원에 결제가능합니다</p>
-          </div>
-          <div class="flex justify-between">
-            <p class="text-2xl font-PretendardSemiBold">330,000 크레딧</p>
-            <div
-              class="flex justify-center items-center font-PretendardSemiBold w-16 h-8 rounded-2xl bg-lightBlue text-darkPurple"
-            >
-              + 10%
-            </div>
-          </div>
-
-          <div class="p-4 bg-lightGray2 h-20">
-            <div class="flex justify-between w-full">
-              <div>기본 크레딧</div>
-              <div>300,000</div>
-            </div>
-            <div class="flex justify-between w-full">
-              <div>추가 크레딧</div>
-              <div>+ 30,000</div>
-            </div>
-          </div>
-          <button
-            class="w-full h-16 bg-buttonPurple2 rounded-lg my-2 text-xl text-white"
-          >
-            구매하기
-          </button>
-        </div>
-        <!-- 2 -->
-        <div class="flex flex-col justify-between credit-content p-8">
-          <p class="text-3xl font-PretendardBold">30,000 원</p>
-          <div>
-            <p class="text-lg text-gray-500">총 66,667건 발송가능합니다</p>
-            <p class="text-lg text-gray-500">1건당 15원에 결제가능합니다</p>
-          </div>
-          <div class="flex justify-between">
-            <p class="text-2xl font-PretendardSemiBold">330,000 크레딧</p>
-            <div
-              class="flex justify-center items-center font-PretendardSemiBold w-16 h-8 rounded-2xl bg-lightBlue text-darkPurple"
-            >
-              + 10%
-            </div>
-          </div>
-
-          <div class="p-4 bg-lightGray2 h-20">
-            <div class="flex justify-between w-full">
-              <div>기본 크레딧</div>
-              <div>300,000</div>
-            </div>
-            <div class="flex justify-between w-full">
-              <div>추가 크레딧</div>
-              <div>+ 30,000</div>
-            </div>
-          </div>
-          <button
-            class="w-full h-16 bg-buttonPurple2 rounded-lg my-2 text-xl text-white"
-          >
-            구매하기
-          </button>
-        </div>
-        <!-- 3 -->
-        <div class="flex flex-col justify-between credit-content p-8">
-          <p class="text-3xl font-PretendardBold">30,000 원</p>
-          <div>
-            <p class="text-lg text-gray-500">총 66,667건 발송가능합니다</p>
-            <p class="text-lg text-gray-500">1건당 15원에 결제가능합니다</p>
-          </div>
-          <div class="flex justify-between">
-            <p class="text-2xl font-PretendardSemiBold">330,000 크레딧</p>
-            <div
-              class="flex justify-center items-center font-PretendardSemiBold w-16 h-8 rounded-2xl bg-lightBlue text-darkPurple"
-            >
-              + 10%
-            </div>
-          </div>
-
-          <div class="p-4 bg-lightGray2 h-20">
-            <div class="flex justify-between w-full">
-              <div>기본 크레딧</div>
-              <div>300,000</div>
-            </div>
-            <div class="flex justify-between w-full">
-              <div>추가 크레딧</div>
-              <div>+ 30,000</div>
-            </div>
-          </div>
-          <button
-            class="w-full h-16 bg-buttonPurple2 rounded-lg my-2 text-xl text-white"
-          >
-            구매하기
-          </button>
-        </div>
-        <!-- 4 -->
-        <div class="flex flex-col justify-between credit-content p-8">
-          <p class="text-3xl font-PretendardBold">30,000 원</p>
-          <div>
-            <p class="text-lg text-gray-500">총 66,667건 발송가능합니다</p>
-            <p class="text-lg text-gray-500">1건당 15원에 결제가능합니다</p>
-          </div>
-          <div class="flex justify-between">
-            <p class="text-2xl font-PretendardSemiBold">330,000 크레딧</p>
-            <div
-              class="flex justify-center items-center font-PretendardSemiBold w-16 h-8 rounded-2xl bg-lightBlue text-darkPurple"
-            >
-              + 10%
-            </div>
-          </div>
-
-          <div class="p-4 bg-lightGray2 h-20">
-            <div class="flex justify-between w-full">
-              <div>기본 크레딧</div>
-              <div>300,000</div>
-            </div>
-            <div class="flex justify-between w-full">
-              <div>추가 크레딧</div>
-              <div>+ 30,000</div>
-            </div>
-          </div>
-          <button
-            class="w-full h-16 bg-buttonPurple2 rounded-lg my-2 text-xl text-white"
-          >
-            구매하기
-          </button>
-        </div>
+        <CreditCard
+          price="30,000"
+          count="66,667"
+          credit="330,000"
+          basic="300,000"
+          add="30,000"
+        />
+        <CreditCard
+          price="10,000"
+          count="76,667"
+          credit="110,000"
+          basic="100,000"
+          add="10,000"
+        />
+        <CreditCard
+          price="30,000"
+          count="66,667"
+          credit="330,000"
+          basic="300,000"
+          add="30,000"
+        />
+        <CreditCard
+          price="10,000"
+          count="76,667"
+          credit="110,000"
+          basic="100,000"
+          add="10,000"
+        />
       </div>
     </div>
   </div>
 </template>
 <script>
-export default {};
+import CreditCard from "../components/CreditCard.vue";
+export default {
+  components: {
+    CreditCard,
+  },
+};
 </script>
 <style>
 .credit-content {
