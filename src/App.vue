@@ -9,12 +9,21 @@
     </div>
     <nav>
       <ul :class="{ 'text-gray-300': !scrolled, 'text-black': scrolled }">
-        <li class="inline-block w-14 mr-24">메세지</li>
-        <li class="inline-block w-14 mr-24">크레딧</li>
+        <router-link
+          :to="route.path"
+          class="cursor-pointer"
+          v-for="route in routes"
+          :key="route"
+        >
+          <div v-if="route.meta.isMenu">
+            <li class="inline-block w-14 mr-24">{{ route.title }}</li>
+          </div>
+          ㅎㅇㅎㅇ
+        </router-link>
       </ul>
     </nav>
   </header>
-  <Home />
+  <router-view />
   <!-- footer -->
   <Footer />
 </template>
@@ -23,6 +32,7 @@ import LogoIcon from "./assets/logo.svg";
 import Footer from "./components/Footer.vue";
 import Home from "./pages/Home.vue";
 import { ref, onMounted, onBeforeUnmount } from "vue";
+import router from "./router";
 
 export default {
   components: {
@@ -32,6 +42,9 @@ export default {
   },
   setup() {
     const scrolled = ref(false);
+    const routes = ref([]);
+
+    console.log(router.options.routes);
 
     // 스크롤 위치에 따라 헤더 색상 변경
     const handleScroll = () => {
@@ -44,10 +57,12 @@ export default {
 
     onBeforeUnmount(() => {
       window.removeEventListener("scroll", handleScroll);
+      routes.value = router.options.routes;
     });
 
     return {
       scrolled,
+      routes,
     };
   },
 };
