@@ -3,6 +3,13 @@ export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      // 폰트 테마
+      fontFamily: {
+        PretendardMedium: ["Pretendard-Medium"],
+        PretendardSemiBold: ["Pretendard-SemiBold"],
+        PretendardBold: ["Pretendard-Bold"],
+        PretendardExtraBold: ["Pretendard-ExtraBold"],
+      },
       colors: {
         // 컬러 추가
         purple: "#6250FF",
