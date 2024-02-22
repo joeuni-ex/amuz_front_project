@@ -47,10 +47,49 @@
       </div>
     </div>
     <!-- 오른쪽 -->
-    <div class="flex w-1/2 justify-center items-center bg-slate-400">
-      <div></div>
-      <div></div>
-      <div></div>
+    <div class="grid grid-cols-3 w-1/2 h-screen overflow-hidden">
+      <!-- 1 -->
+      <div
+        class="flex flex-col items-center justify-end w-64 h-full -translate-y-56"
+      >
+        <div
+          class="bg-purple rounded-3xl main-hero-content mb-6 overflow-hidden"
+        >
+          <img src="./assets/main-hero-image1.png" />
+        </div>
+        <div class="bg-darkGray rounded-3xl main-hero-content overflow-hidden">
+          <img src="./assets/main-hero-image2.png" />
+        </div>
+      </div>
+      <!-- 2 -->
+      <div
+        class="flex flex-col items-center justify-end w-64 h-full -translate-y-32"
+      >
+        <div
+          class="bg-darkGray rounded-3xl main-hero-content2 mb-6 overflow-hidden"
+        >
+          <img src="./assets/main-hero-image3.png" class="translate-y-20" />
+        </div>
+        <div class="bg-purple rounded-3xl main-hero-content2 overflow-hidden">
+          <img src="./assets/main-hero-image4.png" />
+        </div>
+      </div>
+      <!-- 3-->
+      <div
+        class="flex flex-col items-center justify-end w-64 h-full -translate-y-80"
+      >
+        <div
+          class="bg-purple rounded-3xl main-hero-content2 mb-6 overflow-hidden"
+        >
+          <img src="./assets/main-hero-image5.png" class="translate-y-20" />
+        </div>
+        <div class="bg-darkGray rounded-3xl main-hero-content2 relative">
+          <img
+            src="./assets/main-hero-image6.png"
+            class="absolute hero-image"
+          />
+        </div>
+      </div>
     </div>
   </div>
   <!-- 메인 두 번째 섹션 -->
@@ -342,6 +381,20 @@ export default {
     0% no-repeat padding-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* 히어로 섹션 */
+.main-hero-content {
+  width: 254px;
+  height: 443px;
+}
+.main-hero-content2 {
+  width: 254px;
+  height: 609px;
+}
+.hero-image {
+  max-width: none;
+  width: 340px;
 }
 
 /* 메인 두번 째 섹션 */
