@@ -15,10 +15,9 @@
           v-for="route in routes"
           :key="route"
         >
-          <div v-if="route.meta.isMenu">
-            <li class="inline-block w-14 mr-24">{{ route.title }}</li>
-          </div>
-          ㅎㅇㅎㅇ
+          <li class="inline-block w-14 mr-24" v-if="route.meta.isMenu">
+            {{ route.title }}
+          </li>
         </router-link>
       </ul>
     </nav>
@@ -42,9 +41,8 @@ export default {
   },
   setup() {
     const scrolled = ref(false);
+    // 라우터 정보 가져오기
     const routes = ref([]);
-
-    console.log(router.options.routes);
 
     // 스크롤 위치에 따라 헤더 색상 변경
     const handleScroll = () => {
@@ -53,11 +51,11 @@ export default {
 
     onMounted(() => {
       window.addEventListener("scroll", handleScroll);
+      routes.value = router.options.routes;
     });
 
     onBeforeUnmount(() => {
       window.removeEventListener("scroll", handleScroll);
-      routes.value = router.options.routes;
     });
 
     return {
