@@ -131,5 +131,8 @@ export default {};
   border-radius: 22px;
   opacity: 1;
   margin-left: 68px;
+  position: sticky;
+  top: 80px;
+  z-index: 1;
 }
 </style>
