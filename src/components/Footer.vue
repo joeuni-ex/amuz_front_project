@@ -7,7 +7,7 @@
     >
       <div class="flex items-center w-3/5 justify-between">
         <div class="w-36">
-          <LogoIcon />
+          <LogoIconGray />
         </div>
         <div class="w-3/5 text-center text-gray-400 space-x-11">
           <span>메세지</span>
@@ -26,11 +26,11 @@
   </footer>
 </template>
 <script>
-import LogoIcon from "../assets/logo.svg";
+import LogoIconGray from "../assets/logo-gray.svg";
 
 export default {
   components: {
-    LogoIcon,
+    LogoIconGray,
   },
 };
 </script>
