@@ -9,24 +9,24 @@
         <LogoIcon v-if="scrolled || !dark" />
       </router-link>
     </div>
-    <nav>
-      <ul
+    <nav class="flex w-4/5 h-full">
+      <router-link
+        :to="route.path"
         :class="{
           'text-gray-300': !scrolled && dark,
           'text-black': scrolled || !dark,
         }"
+        v-for="route in routes"
+        :key="route"
       >
-        <router-link
-          :to="route.path"
-          class="cursor-pointer"
-          v-for="route in routes"
-          :key="route"
+        <div
+          class="w-44 h-full flex justify-center items-center"
+          :class="{ active: route.path === $route.path }"
+          v-if="route.meta.isMenu"
         >
-          <li class="inline-block w-14 mr-24" v-if="route.meta.isMenu">
-            {{ route.title }}
-          </li>
-        </router-link>
-      </ul>
+          {{ route.title }}
+        </div>
+      </router-link>
     </nav>
   </header>
 </template>
@@ -76,4 +76,11 @@ export default {
   },
 };
 </script>
-<style></style>
+<style>
+/* 현재 선택된 페이지 style */
+.active {
+  border-bottom: 2px solid #4e43ed !important;
+  font-weight: 600;
+  color: #4e43ed !important;
+}
+</style>
