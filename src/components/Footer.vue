@@ -6,7 +6,7 @@
       class="h-2/5 flex justify-center items-center border-b border-gray-600"
     >
       <div class="flex items-center w-3/5 justify-between">
-        <div class="w-36">
+        <div>
           <LogoIconGray />
         </div>
         <div class="w-3/5 text-center text-gray-400 space-x-11">
