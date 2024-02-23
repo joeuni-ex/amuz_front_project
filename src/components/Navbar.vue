@@ -5,12 +5,17 @@
   >
     <div class="w-36 mx-44">
       <router-link to="/">
-        <LogoIconGray v-if="!scrolled" />
-        <LogoIcon v-else />
+        <LogoIconGray v-if="!scrolled && dark" />
+        <LogoIcon v-if="scrolled || !dark" />
       </router-link>
     </div>
     <nav>
-      <ul :class="{ 'text-gray-300': !scrolled, 'text-black': scrolled }">
+      <ul
+        :class="{
+          'text-gray-300': !scrolled && dark,
+          'text-black': scrolled || !dark,
+        }"
+      >
         <router-link
           :to="route.path"
           class="cursor-pointer"
@@ -51,6 +56,12 @@ export default {
     onMounted(() => {
       window.addEventListener("scroll", handleScroll);
       routes.value = router.options.routes;
+      // 네브바 다크모드 확인
+      dark.value = router.currentRoute.value.meta.dark || false;
+    });
+
+    router.afterEach((to) => {
+      dark.value = to.meta.dark || false;
     });
 
     onBeforeUnmount(() => {
