@@ -21,18 +21,18 @@
             문자 메시지
           </button>
           <button
-            class="w-80 h-16 bg-gray-100 rounded-lg text-xl font-PretendardMedium"
+            class="w-80 h-16 bg-gray-100 rounded-lg text-xl font-PretendardMedium text-gray-500"
           >
             알림톡 (카카오)
           </button>
           <button
-            class="w-80 h-16 bg-gray-100 rounded-lg text-xl font-PretendardMedium"
+            class="w-80 h-16 bg-gray-100 rounded-lg text-xl font-PretendardMedium text-gray-500"
           >
             친구톡 (카카오)
           </button>
         </div>
         <div
-          class="border-b border-gray-200 w-full py-8 space-y-1 text-textGray"
+          class="border-b border-gray-300 w-full py-8 space-y-1 text-textGray"
         >
           <p>
             • 간편하게 한 화면에서 단문, 장문 포토메세지를 발송할 수 있습니다.
@@ -45,10 +45,11 @@
 
         <!-- 하단 -->
         <div
-          class="flex flex-1 w-full py-9 justify-between border-b border-gray-200"
+          class="flex flex-1 w-full py-9 justify-between border-b border-gray-300"
         >
           <div class="w-3/5">
-            <div class="border-b border-gray-200 space-y-3 pb-8">
+            <!-- 수신번호 -->
+            <div class="border-b border-gray-300 space-y-3 pb-8">
               <div class="font-PretendardSemiBold text-xl">수신번호</div>
               <div>
                 <input
@@ -62,7 +63,7 @@
                   + 추가
                 </button>
                 <div
-                  class="border w-full h-64 border-borderGray p-3 rounded-lg my-4"
+                  class="flex flex-col border w-full h-64 border-borderGray p-3 rounded-lg my-4"
                 >
                   <textarea
                     class="w-full h-52 resize-none"
@@ -87,37 +88,40 @@
                 </div>
               </div>
 
+              <!-- 수신번호 불러오기 버튼  -->
               <div class="flex justify-between">
                 <div
-                  class="flex justify-center items-center w-44 x h-14 border border-borderGray rounded-lg text-gray-500"
+                  class="flex justify-center items-center w-44 x h-14 border border-borderGray rounded-lg text-gray-500 cursor-pointer"
                 >
                   <img src="../assets/message-icon1.png" class="w-6 h-6" />
                   주소록 불러오기
                 </div>
                 <div
-                  class="flex justify-center items-center w-44 x h-14 border border-borderGray rounded-lg text-gray-500"
+                  class="flex justify-center items-center w-44 x h-14 border border-borderGray rounded-lg text-gray-500 cursor-pointer"
                 >
                   <img src="../assets/message-icon2.png" class="w-6 h-6" />
                   파일 불러오기
                 </div>
                 <div
-                  class="flex justify-center items-center w-44 x h-14 border border-borderGray rounded-lg text-gray-500"
+                  class="flex justify-center items-center w-44 x h-14 border border-borderGray rounded-lg text-gray-500 cursor-pointer"
                 >
                   <img src="../assets/message-icon3.png" class="w-6 h-6" />
                   최근 전송 내역
                 </div>
               </div>
             </div>
-            <div class="border-b border-gray-200 py-8 space-y-3">
+            <!-- 발신 번호  -->
+            <div class="border-b border-gray-300 py-8 space-y-3">
               <div class="font-PretendardSemiBold text-xl">발신번호</div>
               <select
                 placeholder="전송할 발신번호 선택"
-                class="w-full h-14 bg-lightGray2 rounded-lg"
+                class="w-full h-14 bg-lightGray2 rounded-lg pl-5 text-gray-500"
               >
                 <option value="">전송할 발신번호 선택</option>
               </select>
             </div>
-            <div class="border-b border-gray-200 py-8 space-y-3">
+            <!-- 메시지 입력 -->
+            <div class="pt-8 space-y-3">
               <div class="font-PretendardSemiBold text-xl">메세지 입력</div>
               <div
                 class="bg-lightGray2 w-full p-6 rounded-lg border border-borderGray"
@@ -146,39 +150,65 @@
                   </div>
                 </div>
                 <div
-                  class="border w-full h-72 border-borderGray rounded-lg my-4"
+                  class="border w-full h-72 border-borderGray rounded-lg my-4 p-5 bg-white"
                 >
                   <textarea
-                    class="w-full h-64 resize-none p-5"
+                    class="w-full h-48 resize-none"
                     placeholder="내용을 입력해 주세요. 90byte 초과 시 장문 문자로,&#13;&#10;이미지 추가 시 포토 문자로 자동 전환 됩니다."
                   ></textarea>
-                  <div class="flex justify-end bg-white w-full">
+                  <div class="flex justify-end w-full">
                     <div
-                      class="w-28 h-11 mx-1 flex justify-center items-center bg-gray-100 rounded-3xl"
+                      class="w-28 h-11 ml-2 flex justify-center items-center bg-gray-100 rounded-3xl text-gray-500 cursor-pointer"
                     >
                       치환코드
                     </div>
                     <div
-                      class="w-28 h-11 mx-1 flex justify-center items-center bg-gray-100 rounded-3xl"
+                      class="w-28 h-11 ml-2 flex justify-center items-center bg-gray-100 rounded-3xl text-gray-500 cursor-pointer"
                     >
                       템플릿
                     </div>
                     <div
-                      class="w-28 h-11 mx-1 flex justify-center items-center bg-gray-100 rounded-3xl"
+                      class="w-28 h-11 ml-2 flex justify-center items-center bg-gray-100 rounded-3xl text-gray-500 cursor-pointer"
                     >
                       문자도구
                     </div>
                   </div>
                 </div>
+                <div
+                  class="flex justify-between items-center border-y border-gray-300 py-7"
+                >
+                  <p class="font-PretendardSemiBold text-xl">
+                    광고성 문자(080 수신거부번호 포함)
+                  </p>
+                  <img
+                    src="../assets/message-icon5.png"
+                    class="cursor-pointer"
+                  />
+                </div>
+                <!-- 이미지 추가 -->
+                <div>
+                  <p class="font-PretendardSemiBold text-xl my-4">
+                    이미지 추가
+                  </p>
+                  <div
+                    class="flex justify-center items-center w-24 h-24 border bg-white cursor-pointer rounded-lg border-borderGray"
+                  >
+                    <plusIcon />
+                  </div>
+                  <div class="w-full pt-3 space-y-1 text-textGray">
+                    <p class="text-gray-500 text-lg">
+                      • 이미지는 최대 3장까지 첨부 가능합니다.
+                    </p>
+                    <p class="text-gray-500 text-lg">
+                      • 이미지 파일 형식은 JPG, PNG, GIF만 가능합니다.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div
-              class="border-b border-gray-200 font-PretendardSemiBold text-xl py-7"
-            >
-              <p>광고성 문자(080 수신거부번호 포함)</p>
-            </div>
           </div>
-          <div class="">
+          <!-- 오른쪽 스마트폰 카드 -->
+          <div>
             <div class="phone p-3.5">
               <img
                 src="../assets/message-phone-icon.png"
@@ -187,9 +217,26 @@
             </div>
           </div>
         </div>
-        <div class="flex w-full flex-col border-b border-gray-200 py-10">
-          <div class="font-PretendardSemiBold text-xl">발송 설정</div>
-          <div><button>즉시 발송</button><button>예약 발송</button></div>
+        <div class="flex w-full flex-col border-b border-gray-300 py-7">
+          <div class="font-PretendardSemiBold text-xl mb-4">발송 설정</div>
+          <div class="flex space-x-4">
+            <div
+              class="flex justify-center items-center w-1/4 h-16 border-2 border-buttonPurple rounded-lg shadow-md cursor-pointer"
+            >
+              <img src="../assets/message-icon8.png" class="mr-1" />
+              <span class="text-buttonPurple text-xl font-PretendardMedium mr-5"
+                >즉시 발송
+              </span>
+            </div>
+            <div
+              class="flex justify-center items-center w-1/4 h-16 bg-gray-100 rounded-lg cursor-pointer"
+            >
+              <img src="../assets/message-icon7.png" class="mr-1" />
+              <span class="text-gray-500 text-xl font-PretendardMedium mr-5"
+                >예약 발송
+              </span>
+            </div>
+          </div>
         </div>
         <div
           class="flex justify-center items-center text-xl text-white font-PretendardMedium rounded-lg w-full h-16 bg-buttonPurple mt-9"
@@ -201,7 +248,14 @@
   </div>
 </template>
 <script>
-export default {};
+import plusIcon from "../assets/message-icon6.svg";
+
+export default {
+  setup() {},
+  components: {
+    plusIcon,
+  },
+};
 </script>
 <style>
 .message-section {
