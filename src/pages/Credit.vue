@@ -2,14 +2,9 @@
   <div
     class="w-screen h-screen bg-pageBgGray flex flex-1 flex-col items-center pt-20"
   >
-    <div
-      class="flex flex-1 items-center justify-center bg-white space-x-10 w-full h-24 py-2"
-    >
-      <div class="h-14 flex justify-center items-center">메시지 전송</div>
-      <div class="h-14 flex justify-center items-center">발신번호 관리</div>
-      <div class="h-14 flex justify-center items-center">주소록 관리</div>
-      <div class="h-14 flex justify-center items-center">발송결과</div>
-    </div>
+    <!-- 상단 카테고리 -->
+    <Category selectedCategory="크레딧 구매" :categoryList="categoryList" />
+    <!-- 크레딧 페이지  -->
     <div class="flex h-full justify-center items-center flex-col space-y-12">
       <div class="flex flex-col space-y-5 text-center">
         <p class="text-4xl font-PretendardBold">크레딧 구매</p>
@@ -52,9 +47,19 @@
 </template>
 <script>
 import CreditCard from "../components/CreditCard.vue";
+import Category from "../components/Category.vue";
+
 export default {
   components: {
     CreditCard,
+    Category,
+  },
+  setup() {
+    const categoryList = ["크레딧 내역"];
+
+    return {
+      categoryList,
+    };
   },
 };
 </script>
