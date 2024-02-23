@@ -1,20 +1,18 @@
 <template>
   <!-- 네브바 -->
   <Navbar />
-  <!-- 메인 -->
+  <!-- 라우터 뷰 -->
   <router-view />
   <!-- footer -->
   <Footer />
 </template>
 <script>
 import Footer from "./components/Footer.vue";
-import Home from "./pages/Home.vue";
 import Navbar from "./components/Navbar.vue";
 
 export default {
   components: {
     Navbar,
-    Home,
     Footer,
   },
   setup() {},
