@@ -34,6 +34,7 @@ export default {
         mainBlue: "#375984",
         mainLightBlue: "#698AB1",
         lightBlue: "#E0EDFF",
+        skyBlue: "#E1E7FD",
       },
     },
   },
