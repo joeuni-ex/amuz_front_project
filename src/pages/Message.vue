@@ -1,15 +1,7 @@
 <template>
-  <div
-    class="w-screen bg-pageBgGray flex flex-1 flex-col items-center justify-around pt-20"
-  >
-    <div
-      class="flex flex-1 items-center justify-center bg-white space-x-10 w-full h-24 py-2"
-    >
-      <div class="h-14 flex justify-center items-center">메시지 전송</div>
-      <div class="h-14 flex justify-center items-center">발신번호 관리</div>
-      <div class="h-14 flex justify-center items-center">주소록 관리</div>
-      <div class="h-14 flex justify-center items-center">발송결과</div>
-    </div>
+  <div class="w-screen bg-pageBgGray flex flex-1 flex-col items-center pt-20">
+    <!-- 상단 카테고리 -->
+    <Category selectedCategory="메시지 전송" :categoryList="categoryList" />
 
     <div>
       <div class="message-section mt-14 flex flex-col items-center">
@@ -152,10 +144,12 @@
                 <div
                   class="border w-full h-72 border-borderGray rounded-lg my-4 p-5 bg-white"
                 >
+                  <!-- 메시지 입력창 -->
                   <textarea
                     class="w-full h-48 resize-none"
                     placeholder="내용을 입력해 주세요. 90byte 초과 시 장문 문자로,&#13;&#10;이미지 추가 시 포토 문자로 자동 전환 됩니다."
                   ></textarea>
+                  <!-- 태그 -->
                   <div class="flex justify-end w-full">
                     <div
                       class="w-28 h-11 ml-2 flex justify-center items-center bg-gray-100 rounded-3xl text-gray-500 cursor-pointer"
@@ -217,6 +211,7 @@
             </div>
           </div>
         </div>
+        <!-- 발송 설정 -->
         <div class="flex w-full flex-col border-b border-gray-300 py-7">
           <div class="font-PretendardSemiBold text-xl mb-4">발송 설정</div>
           <div class="flex space-x-4">
@@ -249,15 +244,32 @@
 </template>
 <script>
 import plusIcon from "../assets/message-icon6.svg";
+import Category from "../components/Category.vue";
 
 export default {
-  setup() {},
   components: {
     plusIcon,
+    Category,
+  },
+  setup() {
+    const categoryList = ["발신번호 관리", "주소록 관리", "발송결과"];
+
+    return {
+      categoryList,
+    };
   },
 };
 </script>
 <style>
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 1223px;
+  height: 80px;
+  opacity: 0.91;
+}
+
 .message-section {
   width: 1223px;
   height: 2212px;
