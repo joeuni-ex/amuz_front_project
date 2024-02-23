@@ -2,7 +2,7 @@
   <div class="w-screen bg-pageBgGray flex flex-1 flex-col items-center pt-20">
     <!-- 상단 카테고리 -->
     <Category selectedCategory="메시지 전송" :categoryList="categoryList" />
-
+    <!-- 메시지 페이지 -->
     <div>
       <div class="message-section mt-14 flex flex-col items-center">
         <div class="font-PretendardBold text-4xl">메세지 전송</div>
