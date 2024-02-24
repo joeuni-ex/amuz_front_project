@@ -177,17 +177,19 @@
       <p class="text-gray-500 text-xl">고객님들의 입장에서 고민하였습니다.</p>
     </div>
     <!-- 세 번째 섹션 컨텐츠 -->
-    <div class="md:flex flex-col mt-24">
-      <div class="flex">
+    <div class="mt-16 md:flex flex-col md:mt-24">
+      <div
+        class="flex-wrap flex justify-center md:flex-nowrap md:justify-normal space-y-5 md:space-y-0"
+      >
         <div class="main-third-content1 relative">
           <div class="mt-4 space-y-1">
-            <p class="text-3xl font-PretendardBold">
+            <p class="text-2xl md:text-3xl font-PretendardBold">
               자주 전송하는 내용이 있나요?
             </p>
-            <p class="text-3xl font-PretendardBold text-mainGray">
+            <p class="md:text-3xl font-PretendardBold text-mainGray">
               템플릿으로 메시지 내용을
             </p>
-            <p class="text-3xl font-PretendardBold text-mainGray">
+            <p class="md:text-3xl font-PretendardBold text-mainGray">
               저장하여 간편하게 전송하세요.
             </p>
           </div>
@@ -198,32 +200,34 @@
         </div>
         <div class="main-third-content2 relative">
           <div class="mt-4 space-y-1">
-            <p class="text-3xl font-PretendardBold gradation-text2">
+            <p class="text-2xl md:text-3xl font-PretendardBold gradation-text2">
               크레딧 구매 시, 보너스 크레딧 증정
             </p>
-            <p class="text-3xl font-PretendardBold text-mainPurple">
+            <p class="md:text-3xl font-PretendardBold text-mainPurple">
               크레딧 상품을 구매하면 상품 별
             </p>
-            <p class="text-3xl font-PretendardBold text-mainPurple">
+            <p class="md:text-3xl font-PretendardBold text-mainPurple">
               보너스 크레딧을 증정합니다
             </p>
           </div>
           <img
             src="../assets/main-third-image2.png"
-            class="main-third-image2 absolute bottom-0 right-10"
+            class="main-third-image2 absolute bottom-0 right-4 md:right-10"
           />
         </div>
       </div>
-      <div class="flex mt-10">
+      <div
+        class="flex-wrap flex justify-center mt-5 space-y-5 md:mt-10 md:flex-nowrap md:justify-normal md:space-y-0"
+      >
         <div class="main-third-content3 relative">
           <div class="mt-4 space-y-1">
-            <p class="text-3xl font-PretendardBold text-mainBlue">
+            <p class="text-2xl md:text-3xl font-PretendardBold text-mainBlue">
               전송 후 바로 발송확인 기능
             </p>
-            <p class="text-3xl font-PretendardBold text-mainLightBlue">
+            <p class="md:text-3xl font-PretendardBold text-mainLightBlue">
               메시지 전송 후 바로 발송현황 창에서
             </p>
-            <p class="text-3xl font-PretendardBold text-mainLightBlue">
+            <p class="md:text-3xl font-PretendardBold text-mainLightBlue">
               현재 메시지 전송 현황을 알려드립니다
             </p>
           </div>
@@ -234,19 +238,21 @@
         </div>
         <div class="main-third-content4 relative">
           <div class="mt-4 space-y-1">
-            <p class="text-3xl font-PretendardBold text-mainThirdBrown">
+            <p
+              class="text-2xl md:text-3xl font-PretendardBold text-mainThirdBrown"
+            >
               누르면 바로 전송완료
             </p>
-            <p class="text-3xl font-PretendardBold text-lightGray">
+            <p class="md:text-3xl font-PretendardBold text-lightGray">
               누르자마자 수신인에게
             </p>
-            <p class="text-3xl font-PretendardBold text-lightGray">
+            <p class="md:text-3xl font-PretendardBold text-lightGray">
               바로 전달됩니다
             </p>
           </div>
           <img
             src="../assets/main-third-image4.png"
-            class="main-third-image4 absolute bottom-0 right-14"
+            class="main-third-image4 absolute bottom-0 right-4 md:right-14"
           />
         </div>
       </div>
@@ -258,8 +264,12 @@
     <div class="flex flex-col items-center space-y-6">
       <img src="../assets/main-forth-icon1.png" class="w-16 h-16 mb-7" />
       <div class="text-center space-y-3">
-        <p class="font-PretendardBold text-5xl">정확도와 다양함은 물론</p>
-        <p class="font-PretendardBold text-5xl">신뢰할 수 있는 보안까지</p>
+        <p class="text-3xl font-PretendardBold md:text-5xl">
+          정확도와 다양함은 물론
+        </p>
+        <p class="text-3xl font-PretendardBold md:text-5xl">
+          신뢰할 수 있는 보안까지
+        </p>
       </div>
       <p class="text-xl mt-6 text-gray-500">
         고객님들의 간편함을 고민하였습니다
@@ -269,10 +279,10 @@
     <div class="flex mt-16">
       <div class="main-fourth-content1">
         <div class="text-left space-y-3 mt-4">
-          <p class="text-3xl font-PretendardBold">
+          <p class="md:text-3xl font-PretendardBold">
             일반 SMS는 기본, 카카오톡까지
           </p>
-          <p class="text-3xl font-PretendardBold text-gray-600">
+          <p class="md:text-3xl font-PretendardBold text-gray-600">
             종류와 상관없이 모두 전송해 드립니다
           </p>
         </div>
@@ -280,13 +290,13 @@
       </div>
       <div class="main-fourth-content2">
         <div class="text-left space-y-3 mt-4">
-          <p class="text-3xl font-PretendardBold text-mainBrown">
+          <p class="md:text-3xl font-PretendardBold text-mainBrown">
             강력한 보안을 제공합니다.
           </p>
-          <p class="text-3xl font-PretendardBold text-lightBrown">
+          <p class="md:text-3xl font-PretendardBold text-lightBrown">
             신뢰할 수 있는 최신의 보안 시스템을
           </p>
-          <p class="text-3xl font-PretendardBold text-lightBrown">
+          <p class="md:text-3xl font-PretendardBold text-lightBrown">
             적용하여 개인정보를 보호합니다
           </p>
         </div>
@@ -300,10 +310,10 @@
     </div>
     <div class="main-fourth-content3">
       <div class="text-center space-y-3 mt-16">
-        <p class="text-3xl font-PretendardBold">
+        <p class="md:text-3xl font-PretendardBold">
           놀라운 수신율을 경험해 보세요
         </p>
-        <p class="text-3xl font-PretendardBold text-gray-600">
+        <p class="md:text-3xl font-PretendardBold text-gray-600">
           샌드고의 정확한 수신율은 99.8%에 달합니다
         </p>
       </div>
@@ -338,7 +348,6 @@
   </div>
 </template>
 <script>
-import Bar from "../assets/bar.svg";
 export default {};
 </script>
 <style>
@@ -383,49 +392,47 @@ export default {};
 .main-third-content1 {
   display: flex;
   flex-direction: column;
-  width: 626px;
-  height: 597px;
+  width: 78%;
+  height: 300px;
   background: #f8f9fa 0% 0% no-repeat padding-box;
   border-radius: 25px;
   opacity: 1;
   padding: 54px;
-  margin-right: 54px;
 }
 .main-third-image1 {
-  width: 572px;
-  height: 320px;
+  width: 260px;
+  height: 180px;
   opacity: 1;
 }
 .main-third-content2 {
-  width: 750px;
-  height: 597px;
+  width: 78%;
+  height: 300px;
   background: #e9ebfd 0% 0% no-repeat padding-box;
   border-radius: 25px;
   opacity: 1;
   padding: 54px;
 }
 .main-third-image2 {
-  width: 644px;
-  height: 321px;
+  width: 280px;
+  height: 150px;
   opacity: 1;
 }
 .main-third-content3 {
-  width: 855px;
-  height: 720px;
+  width: 78%;
+  height: 300px;
   background: #dbe5ff 0% 0% no-repeat padding-box;
   border-radius: 25px;
   opacity: 1;
-  margin-right: 45px;
   padding: 54px;
 }
 .main-third-image3 {
-  width: 798px;
-  height: 427px;
+  width: 200px;
+  height: 200px;
   opacity: 1;
 }
 .main-third-content4 {
-  width: 520px;
-  height: 720px;
+  width: 78%;
+  height: 300px;
   background: transparent linear-gradient(180deg, #fafaee 0%, #fbfbf0 100%) 0%
     0% no-repeat padding-box;
   border-radius: 25px;
@@ -433,8 +440,8 @@ export default {};
   padding: 54px;
 }
 .main-third-image4 {
-  width: 416px;
-  height: 432px;
+  width: 45%;
+  height: 90%;
   opacity: 1;
 }
 /* 메인 네번 째 섹션 */
@@ -488,5 +495,66 @@ export default {};
   bottom: 0;
   width: 704px;
   height: 286px;
+}
+/* 반응형 */
+@media (min-width: 768px) {
+  /* 세 번째 섹션 */
+  .main-third-content1 {
+    display: flex;
+    flex-direction: column;
+    width: 626px;
+    height: 597px;
+    background: #f8f9fa 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1;
+    padding: 54px;
+    margin-right: 54px;
+  }
+  .main-third-image1 {
+    width: 572px;
+    height: 320px;
+    opacity: 1;
+  }
+  .main-third-content2 {
+    width: 750px;
+    height: 597px;
+    background: #e9ebfd 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1;
+    padding: 54px;
+  }
+  .main-third-image2 {
+    width: 644px;
+    height: 321px;
+    opacity: 1;
+  }
+  .main-third-content3 {
+    width: 855px;
+    height: 720px;
+    background: #dbe5ff 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1;
+    margin-right: 45px;
+    padding: 54px;
+  }
+  .main-third-image3 {
+    width: 798px;
+    height: 427px;
+    opacity: 1;
+  }
+  .main-third-content4 {
+    width: 520px;
+    height: 720px;
+    background: transparent linear-gradient(180deg, #fafaee 0%, #fbfbf0 100%) 0%
+      0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1;
+    padding: 54px;
+  }
+  .main-third-image4 {
+    width: 416px;
+    height: 432px;
+    opacity: 1;
+  }
 }
 </style>
