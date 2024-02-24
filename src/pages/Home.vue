@@ -2,20 +2,23 @@
   <!-- 히어로 섹션 -->
   <div class="w-screen h-screen bg-black flex flex-1">
     <!-- 왼쪽 -->
-    <div class="flex w-1/2 justify-center items-center">
-      <div class="space-y-10">
-        <span class="text-gray-100 text-2xl"
+    <div class="flex flex-1 md:flex w-1/2 justify-center items-center">
+      <div class="space-y-5 md:space-y-10">
+        <span class="text-xl text-gray-100 md:text-2xl"
           >인터넷 문자 메시지 전송의 모든 것</span
         >
         <div class="space-y-7">
-          <p class="gradation-text text-6xl font-PretendardExtraBold">
+          <p
+            class="gradation-text text-5xl font-PretendardExtraBold md:text-6xl"
+          >
             가장 빠르고 안정적인
           </p>
-          <p class="gradation-text text-6xl font-PretendardExtraBold">
+          <p
+            class="gradation-text text-5xl font-PretendardExtraBold md:text-6xl"
+          >
             문자 서비스 SENDGO
           </p>
         </div>
-
         <div class="flex mt-16">
           <button
             class="w-52 h-16 py-4 mx-2 rounded-full bg-purple text-white text-center text-xl"
@@ -28,13 +31,18 @@
             로그인
           </button>
         </div>
+        <div
+          class="bg-darkGray rounded-3xl main-hero-content overflow-hidden md:hidden"
+        >
+          <img src="../assets/main-hero-image1.png" />
+        </div>
       </div>
     </div>
-    <!-- 오른쪽 -->
-    <div class="grid grid-cols-3 w-1/2 h-screen overflow-hidden">
+    <!-- 오른쪽 (모바일 사이즈에서는 hidden)-->
+    <div class="hidden md:grid grid-cols-3 w-1/2 h-screen overflow-hidden">
       <!-- 1 -->
       <div
-        class="flex flex-col items-center justify-end w-64 h-full -translate-y-56"
+        class="flex flex-col items-center justify-end w-64 h-full -translate-y-28"
       >
         <div
           class="bg-purple rounded-3xl main-hero-content mb-6 overflow-hidden"
@@ -78,21 +86,25 @@
   </div>
   <!-- 메인 두 번째 섹션 -->
   <div
-    class="w-screen h-screen bg-white flex flex-1 flex-col justify-center items-center space-y-14"
+    class="mt-72 md:mt-0 w-screen h-screen bg-white flex flex-1 flex-col justify-center items-center space-y-14"
   >
     <div class="flex flex-col w-screen justify-center items-center space-y-6">
       <img src="../assets/main-second-icon1.png" class="w-16 h-16" />
       <div class="text-center space-y-3">
-        <p class="text-5xl font-PretendardBold my-3">
+        <p class="text-3xl font-PretendardBold my-3 md:text-5xl">
           복잡한 인터넷 문자 서비스를
         </p>
-        <p class="text-5xl font-PretendardBold my-3">간편하게 만나보세요.</p>
+        <p class="text-3xl font-PretendardBold my-3 md:text-5xl">
+          간편하게 만나보세요.
+        </p>
       </div>
 
       <p class="text-gray-500 text-xl">모든 종류의 인터넷 SMS를 편리하게.</p>
     </div>
     <!-- 두번 째 메인 섹션 카드들 -->
-    <div class="flex justify-around">
+    <div
+      class="flex-wrap flex justify-around items-center space-y-5 md:space-y-0 md:flex-nowrap"
+    >
       <div
         class="main-second-content flex flex-col justify-center items-center space-y-4 mx-6"
       >
@@ -150,18 +162,22 @@
     </div>
   </div>
   <!-- 메인 세 번째 섹션 -->
-  <div class="flex flex-1 flex-col justify-center items-center w-screen mt-44">
+  <div
+    class="mt-72 flex flex-1 flex-col justify-center items-center w-full md:mt-44"
+  >
     <!-- 세 번째 섹션 타이틀 -->
     <div class="flex flex-col items-center space-y-6">
       <img src="../assets/main-third-icon1.png" class="w-16 h-16 mb-7" />
       <div class="text-center space-y-3">
-        <p class="font-PretendardBold text-5xl">샌드고의 다양한</p>
-        <p class="font-PretendardBold text-5xl">기능들을 살펴보세요</p>
+        <p class="text-3xl font-PretendardBold md:text-5xl">샌드고의 다양한</p>
+        <p class="text-3xl font-PretendardBold md:text-5xl">
+          기능들을 살펴보세요
+        </p>
       </div>
       <p class="text-gray-500 text-xl">고객님들의 입장에서 고민하였습니다.</p>
     </div>
     <!-- 세 번째 섹션 컨텐츠 -->
-    <div class="flex flex-col mt-24">
+    <div class="md:flex flex-col mt-24">
       <div class="flex">
         <div class="main-third-content1 relative">
           <div class="mt-4 space-y-1">
@@ -237,7 +253,7 @@
     </div>
   </div>
   <!--메인 네번 째 섹션 -->
-  <div class="flex flex-1 flex-col justify-center items-center w-screen mt-60">
+  <div class="flex flex-1 flex-col justify-center items-center w-ful mt-60">
     <!-- 네번 째 섹션 타이틀 -->
     <div class="flex flex-col items-center space-y-6">
       <img src="../assets/main-forth-icon1.png" class="w-16 h-16 mb-7" />
@@ -297,7 +313,7 @@
 
   <!--메인 다섯 번째 섹션 -->
   <div
-    class="flex flex-1 flex-col bg-blackBg justify-center items-center w-screen h-screen mt-56"
+    class="flex flex-1 flex-col bg-blackBg justify-center items-center w-full h-screen mt-56"
   >
     <!-- 다섯 번째 섹션 타이틀 -->
     <div class="flex flex-col items-center space-y-10">
@@ -322,6 +338,7 @@
   </div>
 </template>
 <script>
+import Bar from "../assets/bar.svg";
 export default {};
 </script>
 <style>
