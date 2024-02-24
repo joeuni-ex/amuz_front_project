@@ -8,17 +8,17 @@
         <div class="font-PretendardBold text-4xl">메세지 전송</div>
         <div class="space-x-4 mt-9">
           <button
-            class="w-80 h-16 bg-buttonPurple rounded-lg text-xl text-white font-PretendardMedium"
+            class="md:w-80 h-16 bg-buttonPurple rounded-lg md:text-xl text-white font-PretendardMedium"
           >
             문자 메시지
           </button>
           <button
-            class="w-80 h-16 bg-gray-100 rounded-lg text-xl font-PretendardMedium text-gray-500"
+            class="md:w-80 h-16 bg-gray-100 rounded-lg md:text-xl font-PretendardMedium text-gray-500"
           >
             알림톡 (카카오)
           </button>
           <button
-            class="w-80 h-16 bg-gray-100 rounded-lg text-xl font-PretendardMedium text-gray-500"
+            class="md:w-80 h-16 bg-gray-100 rounded-lg md:text-xl font-PretendardMedium text-gray-500"
           >
             친구톡 (카카오)
           </button>
@@ -202,7 +202,7 @@
             </div>
           </div>
           <!-- 오른쪽 스마트폰 카드 -->
-          <div>
+          <div class="hidden md:block">
             <div class="phone p-3.5">
               <img
                 src="../assets/message-phone-icon.png"
@@ -281,5 +281,28 @@ export default {
   position: sticky;
   top: 80px;
   z-index: 1;
+}
+@media (min-width: 768px) {
+  .message-section {
+    width: 1223px;
+    height: 2212px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+    padding: 53px 96px 72px 96px;
+    margin-bottom: 200px;
+  }
+  .phone {
+    width: 401px;
+    height: 775px;
+    background: #eaf8ff 0% 0% no-repeat padding-box;
+    border: 5px solid #4d4d4d;
+    border-radius: 22px;
+    opacity: 1;
+    margin-left: 68px;
+    position: sticky;
+    top: 80px;
+    z-index: 1;
+  }
 }
 </style>

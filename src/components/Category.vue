@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-1 items-center justify-center bg-white w-full py-2">
-    <div class="flex md:category space-x-2 md:space-x-5">
+    <div class="category space-x-3 md:space-x-5">
       <div
         class="h-10 md:h-14 py-1 px-3 md:py-4 md:px-8 flex justify-center items-center bg-skyBlue text-buttonPurple rounded-xl text-xs md:text-xl font-PretendardSemiBold cursor-pointer"
       >
@@ -34,9 +34,16 @@ export default {
 .category {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  width: 1223px;
-  height: 80px;
-  opacity: 0.91;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .category {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 1223px;
+    height: 80px;
+    opacity: 0.91;
+  }
 }
 </style>
