@@ -8,5 +8,4 @@
 - Vue (Vite)
 - tailwindCSS
 
-## 배포주소
-- joeuni-amuz-project.netlify.app
+## [배포 링크](https://joeuni-amuz-project.netlify.app/)
