@@ -9,4 +9,4 @@
 - tailwindCSS
 
 ## 배포주소
-joeuni-amuz-project.netlify.app
+- joeuni-amuz-project.netlify.app
