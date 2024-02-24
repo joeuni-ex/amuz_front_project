@@ -264,7 +264,7 @@ export default {
 .category {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   width: 1223px;
   height: 80px;
   opacity: 0.91;
