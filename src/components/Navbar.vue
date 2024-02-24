@@ -6,8 +6,8 @@
     <nav class="flex items-center md:w-4/5 h-full">
       <div class="md:mx-44">
         <router-link to="/">
-          <LogoIconGray v-if="!scrolled && dark" />
-          <LogoIcon v-if="scrolled || !dark" />
+          <LogoIconGray v-if="!scrolled && dark" class="w-24 md:w-36" />
+          <LogoIcon v-if="scrolled || !dark" class="w-24 md:w-36" />
         </router-link>
       </div>
       <div class="flex items-center w-full h-20">
@@ -60,7 +60,7 @@
           :key="route"
         >
           <div
-            class="w-full h-16 flex justify-center items-center"
+            class="w-full h-12 flex justify-center items-center"
             :class="{ active: route.path === $route.path }"
             v-if="route.meta.isMenu"
             @click="toggleMobileMenu"
