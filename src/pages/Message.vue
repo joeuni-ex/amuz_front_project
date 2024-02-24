@@ -261,15 +261,6 @@ export default {
 };
 </script>
 <style>
-.category {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  width: 1223px;
-  height: 80px;
-  opacity: 0.91;
-}
-
 .message-section {
   width: 1223px;
   height: 2212px;
