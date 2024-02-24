@@ -36,6 +36,7 @@ export default {
   align-items: center;
   justify-content: center;
 }
+/* 모바일 반응형 */
 @media (min-width: 768px) {
   .category {
     display: flex;

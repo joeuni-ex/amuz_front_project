@@ -1,18 +1,22 @@
 <template>
   <div
-    class="w-screen h-screen bg-pageBgGray flex flex-1 flex-col items-center pt-20"
+    class="w-screen md:h-screen bg-pageBgGray flex flex-1 flex-col items-center pt-20 pb-10 md:pb-0"
   >
     <!-- 상단 카테고리 -->
     <Category selectedCategory="크레딧 구매" :categoryList="categoryList" />
     <!-- 크레딧 페이지  -->
-    <div class="flex h-full justify-center items-center flex-col space-y-12">
+    <div
+      class="mt-10 md:mt-0 flex w-full h-full justify-center items-center flex-col space-y-12"
+    >
       <div class="flex flex-col space-y-5 text-center">
-        <p class="text-4xl font-PretendardBold">크레딧 구매</p>
-        <span class="text-xl text-gray-500"
+        <p class="text-xl md:text-4xl font-PretendardBold">크레딧 구매</p>
+        <span class="text-sm md:text-xl text-gray-500"
           >메시지 전송을 위해 사용할 크레딧 상품을 선택해 주세요</span
         >
       </div>
-      <div class="flex space-x-7 flex-wrap">
+      <div
+        class="w-full flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-7 flex-wrap"
+      >
         <CreditCard
           price="30,000"
           count="66,667"
@@ -63,13 +67,4 @@ export default {
   },
 };
 </script>
-<style>
-.credit-content {
-  width: 347px;
-  height: 459px;
-  background: #ffffff 0% 0% no-repeat padding-box;
-  box-shadow: 0px 10px 10px #00000008;
-  border-radius: 8px;
-  opacity: 1;
-}
-</style>
+<style></style>
