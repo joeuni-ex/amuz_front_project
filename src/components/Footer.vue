@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="w-screen h-72 flex flex-1 flex-col bg-footerBg border-t border-gray-600"
+    class="h-72 flex flex-1 flex-col bg-footerBg border-t border-gray-600"
   >
     <div
       class="h-2/5 flex justify-center items-center border-b border-gray-600"

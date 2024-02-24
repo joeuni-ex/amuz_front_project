@@ -259,7 +259,9 @@
     </div>
   </div>
   <!--메인 네번 째 섹션 -->
-  <div class="flex flex-1 flex-col justify-center items-center w-ful mt-60">
+  <div
+    class="flex flex-1 flex-col justify-center items-center w-full mt-20 md:mt-60"
+  >
     <!-- 네번 째 섹션 타이틀 -->
     <div class="flex flex-col items-center space-y-6">
       <img src="../assets/main-forth-icon1.png" class="w-16 h-16 mb-7" />
@@ -276,7 +278,7 @@
       </p>
     </div>
     <!-- 네번 째 섹션 컨텐츠 -->
-    <div class="flex mt-16">
+    <div class="flex mt-16 flex-wrap justify-center md:flex-nowrap">
       <div class="main-fourth-content1">
         <div class="text-left space-y-3 mt-4">
           <p class="md:text-3xl font-PretendardBold">
@@ -329,10 +331,10 @@
     <div class="flex flex-col items-center space-y-10">
       <div class="space-y-6">
         <div class="text-center space-y-6">
-          <p class="gradation-text font-PretendardBold text-6xl">
+          <p class="gradation-text font-PretendardBold text-5xl md:text-6xl">
             비즈니스 광고의 시작,
           </p>
-          <p class="gradation-text font-bold text-6xl">
+          <p class="gradation-text font-bold text-5xl md:text-6xl">
             이제 샌드고와 함께 하세요
           </p>
         </div>
@@ -452,8 +454,8 @@ export default {};
   background: #dceff4 0% 0% no-repeat padding-box;
   border-radius: 25px;
   opacity: 1;
-  width: 688px;
-  height: 597px;
+  width: 78%;
+  height: 300px;
   padding: 54px;
 }
 .main-forth-image1 {
@@ -467,10 +469,9 @@ export default {};
   background: #fbfbef 0% 0% no-repeat padding-box;
   border-radius: 25px;
   opacity: 1;
-  width: 688px;
-  height: 597px;
+  width: 78%;
+  height: 300px;
   padding: 54px;
-  margin-left: 44px;
 }
 .main-forth-image2 {
   margin-top: 50px;
@@ -483,12 +484,11 @@ export default {};
   flex-direction: column;
   align-items: center;
   position: relative;
-  width: 1420px;
-  height: 495px;
+  width: 78%;
+  height: 300px;
   background: #f8f9fa 0% 0% no-repeat padding-box;
   border-radius: 25px;
   opacity: 1;
-  margin-top: 44px;
 }
 .main-forth-image3 {
   position: absolute;
@@ -555,6 +555,59 @@ export default {};
     width: 416px;
     height: 432px;
     opacity: 1;
+  }
+  /* 네 번째 섹션 */
+
+  .main-fourth-content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #dceff4 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1;
+    width: 688px;
+    height: 597px;
+    padding: 54px;
+  }
+  .main-forth-image1 {
+    margin-top: 60px;
+    width: 342px;
+    height: 310px;
+  }
+  .main-fourth-content2 {
+    display: flex;
+    flex-direction: column;
+    background: #fbfbef 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1;
+    width: 688px;
+    height: 597px;
+    padding: 54px;
+    margin-left: 44px;
+  }
+  .main-forth-image2 {
+    margin-top: 50px;
+    margin-right: 55px;
+    width: 285px;
+    height: 317px;
+  }
+  .main-fourth-content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 1420px;
+    height: 495px;
+    background: #f8f9fa 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1;
+    margin-top: 44px;
+  }
+  .main-forth-image3 {
+    position: absolute;
+    bottom: 0;
+    width: 704px;
+    height: 286px;
   }
 }
 </style>
