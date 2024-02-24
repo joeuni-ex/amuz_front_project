@@ -1,10 +1,10 @@
 <template>
   <header
     :class="{ 'bg-black': !scrolled || dark, 'bg-white': scrolled || !dark }"
-    class="fixed top-0 z-20 w-screen border-b border-gray-300 duration-150 ease-in-out"
+    class="fixed top-0 z-20 w-screen border-b px-5 md:px-0 border-gray-300 duration-150 ease-in-out"
   >
     <nav class="flex items-center md:w-4/5 h-full">
-      <div class="mx-16 md:mx-44">
+      <div class="md:mx-44">
         <router-link to="/">
           <LogoIconGray v-if="!scrolled && dark" />
           <LogoIcon v-if="scrolled || !dark" />
@@ -32,7 +32,7 @@
 
         <!-- Mobile Menu Button -->
         <div
-          class="w-full justify-end mx-16 md:hidden flex items-center"
+          class="w-full justify-end md:hidden flex items-center"
           :class="{
             'text-gray-300': !scrolled && dark,
             'text-black': scrolled || !dark,
