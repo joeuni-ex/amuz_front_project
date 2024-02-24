@@ -3,13 +3,14 @@
     :class="{ 'bg-black': !scrolled || dark, 'bg-white': scrolled || !dark }"
     class="fixed top-0 z-20 h-20 w-screen flex items-center border-b border-gray-300 duration-150 ease-in-out"
   >
-    <div class="w-36 mx-44">
+    <div class="mx-10 md:mx-44">
       <router-link to="/">
         <LogoIconGray v-if="!scrolled && dark" />
         <LogoIcon v-if="scrolled || !dark" />
       </router-link>
     </div>
-    <nav class="flex w-4/5 h-full">
+
+    <nav class="flex items-center justify-end mx-10 md:flex w-4/5 h-full">
       <router-link
         :to="route.path"
         :class="{
@@ -20,13 +21,25 @@
         :key="route"
       >
         <div
-          class="w-44 h-full flex justify-center items-center"
+          class="hidden md:flex w-44 h-full justify-center items-center"
           :class="{ active: route.path === $route.path }"
           v-if="route.meta.isMenu"
         >
           {{ route.title }}
         </div>
       </router-link>
+      <!-- 모바일 메뉴 -->
+      <div
+        class="md:hidden flex items-center"
+        :class="{
+          'text-gray-300': !scrolled && dark,
+          'text-black': scrolled || !dark,
+        }"
+      >
+        <button>
+          <Bar fill="#ffffff" />
+        </button>
+      </div>
     </nav>
   </header>
 </template>
@@ -34,6 +47,7 @@
 <script>
 import LogoIconGray from "../assets/logo-gray.svg";
 import LogoIcon from "../assets/logo.svg";
+import Bar from "../assets/bar.svg";
 import { ref, onMounted, onBeforeUnmount } from "vue";
 import router from "../router";
 
@@ -41,6 +55,7 @@ export default {
   components: {
     LogoIcon,
     LogoIconGray,
+    Bar,
   },
   setup() {
     const scrolled = ref(false);
