@@ -369,7 +369,7 @@
       </div>
       <div class="flex mt-6">
         <button
-          class="w-52 h-16 py-4 mx-2 rounded-full bg-purple text-white text-center text-xl"
+          class="w-40 md:w-52 md:h-16 py-4 mx-2 rounded-full bg-purple text-white text-center md:text-xl"
         >
           메시지 바로가기
         </button>
