@@ -3,11 +3,11 @@
   <div class="w-screen h-screen bg-black flex flex-1">
     <!-- 왼쪽 -->
     <div class="flex flex-1 md:flex w-1/2 justify-center items-center">
-      <div class="text-center md:text-left space-y-5 md:space-y-10">
+      <div class="text-center md:text-left space-y-5 md:space-y-10 z-10">
         <span class="text-lg text-gray-100 md:text-2xl"
           >인터넷 문자 메시지 전송의 모든 것</span
         >
-        <div class="space-y-7">
+        <div class="md:space-y-7">
           <p
             class="gradation-text text-4xl font-PretendardExtraBold md:text-6xl"
           >
@@ -21,21 +21,21 @@
         </div>
         <div class="flex mt-16">
           <button
-            class="w-1/2 md:w-52 h-16 py-4 mx-2 rounded-full bg-purple text-white text-center text-xl"
+            class="w-1/2 h-12 md:w-52 md:h-16 md:py-4 mx-2 rounded-full bg-purple text-white text-center md:text-xl"
           >
             회원가입
           </button>
           <button
-            class="w-1/2 md:w-52 h-16 py-4 mx-2 rounded-full bg-darkGray text-gray-300 text-center text-xl"
+            class="w-1/2 h-12 md:w-52 md:h-16 md:py-4 mx-2 rounded-full bg-darkGray text-gray-300 text-center md:text-xl"
           >
             로그인
           </button>
         </div>
-        <!-- <div
-          class="bg-darkGray rounded-3xl main-hero-content overflow-hidden md:hidden"
-        >
-          <img src="../assets/main-hero-image1.png" />
-        </div> -->
+      </div>
+      <div
+        class="bg-darkGray rounded-3xl overflow-hidden w-full md:hidden opacity-25 absolute bottom-0 right-0 z-0"
+      >
+        <img src="../assets/main-hero-image4.png" class="w-full" />
       </div>
     </div>
     <!-- 오른쪽 (모바일 사이즈에서는 hidden)-->
@@ -411,8 +411,8 @@ export default {};
 
 /* 메인 두번 째 섹션 */
 .main-second-content {
-  width: 70%;
-  height: 30%;
+  width: 80%;
+  height: 32%;
   background: #f0f0fa 0% 0% no-repeat padding-box;
   border-radius: 28px;
   opacity: 1;
