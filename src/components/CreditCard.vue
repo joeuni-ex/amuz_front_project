@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col justify-between credit-content p-7 space-y-3 md:space-y-0 md:p-8"
+    class="flex flex-col justify-between credit-content p-7 space-y-3 md:space-y-0 m-4 md:p-8"
   >
     <p class="text-xl md:text-3xl font-PretendardBold">{{ price }} 원</p>
     <div>
