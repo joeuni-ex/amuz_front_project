@@ -50,7 +50,7 @@
           <img src="../assets/main-hero-image1.png" />
         </div>
         <div class="bg-darkGray rounded-3xl main-hero-content overflow-hidden">
-          <img src="../assets/main-hero-image2.png" class="" />
+          <img src="../assets/main-hero-image2.png" />
         </div>
       </div>
       <!-- 2 -->
@@ -60,7 +60,7 @@
         <div
           class="bg-darkGray rounded-3xl main-hero-content2 mb-6 overflow-hidden"
         >
-          <img src="../assets/main-hero-image3.png" />
+          <img src="../assets/main-hero-image3.png" class="-translate-y-10" />
         </div>
         <div class="bg-purple rounded-3xl main-hero-content2 overflow-hidden">
           <img src="../assets/main-hero-image4.png" />
@@ -68,7 +68,7 @@
       </div>
       <!-- 3-->
       <div
-        class="flex flex-col items-center justify-end w-64 h-full -translate-y-28"
+        class="flex flex-col items-center justify-end w-64 h-full -translate-y-32"
       >
         <div
           class="bg-purple rounded-3xl main-hero-content2 mb-6 overflow-hidden"
