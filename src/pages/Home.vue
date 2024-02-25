@@ -1,6 +1,6 @@
 <template>
   <!-- 히어로 섹션 -->
-  <div class="w-screen h-screen bg-black flex flex-1">
+  <div class="h-screen bg-black flex flex-1">
     <!-- 왼쪽 -->
     <div class="flex flex-1 md:flex w-1/2 justify-center items-center">
       <div class="text-center md:text-left space-y-5 md:space-y-10 z-10">
@@ -86,9 +86,9 @@
   </div>
   <!-- 메인 두 번째 섹션 -->
   <div
-    class="mt-52 md:mt-0 w-screen h-screen bg-white flex flex-1 flex-col justify-center items-center space-y-14"
+    class="mt-52 md:mt-0 h-screen bg-white flex flex-1 flex-col justify-center items-center space-y-14"
   >
-    <div class="flex flex-col w-screen justify-center items-center space-y-6">
+    <div class="flex flex-col justify-center items-center space-y-6">
       <img
         src="../assets/main-second-icon1.png"
         class="w-12 h-12 md:w-16 md:h-16"
