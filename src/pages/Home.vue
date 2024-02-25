@@ -39,7 +39,9 @@
       </div>
     </div>
     <!-- 오른쪽 (모바일 사이즈에서는 hidden)-->
-    <div class="hidden md:grid grid-cols-3 w-1/2 h-screen overflow-hidden">
+    <div
+      class="hidden md:grid grid-cols-3 gap-8 w-1/2 h-screen overflow-hidden"
+    >
       <!-- 1 -->
       <div
         class="flex flex-col items-center justify-end w-64 h-full -translate-y-28"
