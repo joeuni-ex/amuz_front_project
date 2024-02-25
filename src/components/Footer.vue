@@ -5,12 +5,12 @@
     <div
       class="h-2/5 flex justify-center items-center border-b border-gray-600"
     >
-      <div class="flex items-center w-4/5 md:w-3/5 justify-between">
+      <div class="flex items-center w-4/5 md:w-9/12 justify-between">
         <div>
           <LogoIconGray class="w-24 md:w-36" />
         </div>
         <div
-          class="w-4/5 md:w-3/5 text-center text-xs md:text-sm text-gray-400 space-x-11"
+          class="w-4/5 md:w-1/2 text-left text-xs md:text-sm text-gray-400 space-x-11"
         >
           <span>메세지</span>
           <span>크레딧</span>
@@ -18,7 +18,7 @@
       </div>
     </div>
     <div class="h-3/5 flex justify-center">
-      <div class="text-sm md:text-base w-4/5 md:w-3/5">
+      <div class="text-sm md:text-base w-4/5 md:w-9/12">
         <p class="text-gray-400 mt-4">
           문의 사항이 있으신가요? 텔레그램을 통해 고객센터로 문의 해 보세요.
         </p>
