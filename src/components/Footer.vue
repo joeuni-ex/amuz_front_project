@@ -10,7 +10,7 @@
           <LogoIconGray class="w-24 md:w-36" />
         </div>
         <div
-          class="w-4/5 md:w-1/2 text-left text-xs md:text-sm text-gray-400 space-x-11"
+          class="w-4/5 md:w-1/2 text-right md:text-left text-xs md:text-sm text-gray-400 space-x-11"
         >
           <span>메세지</span>
           <span>크레딧</span>
