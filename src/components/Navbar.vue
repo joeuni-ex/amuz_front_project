@@ -135,6 +135,7 @@ export default {
   color: #4e43ed !important;
 }
 
+/* 모바일 사이즈 시 오른쪽 Bar 아이콘 클릭 시 실행 */
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s;
