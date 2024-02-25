@@ -241,7 +241,7 @@
           </div>
         </div>
         <div
-          class="flex justify-center items-center md:text-xl text-white font-PretendardMedium rounded-lg w-full h-12 md:h-16 bg-buttonPurple mt-9"
+          class="flex justify-center items-center md:text-xl text-white font-PretendardMedium rounded-lg w-full h-12 md:h-16 bg-buttonPurple hover:bg-indigo-500 mt-9 cursor-pointer"
         >
           발송하기
         </div>
