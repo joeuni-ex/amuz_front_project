@@ -39,12 +39,10 @@
       </div>
     </div>
     <!-- 오른쪽 (모바일 사이즈에서는 hidden)-->
-    <div
-      class="hidden md:grid grid-cols-3 gap-8 w-1/2 h-screen overflow-hidden"
-    >
+    <div class="hidden md:flex w-1/2 h-screen overflow-hidden space-x-8">
       <!-- 1 -->
       <div
-        class="flex flex-col items-center justify-end w-64 h-full -translate-y-28"
+        class="flex flex-col items-center justify-end w-64 h-full translate-y-36"
       >
         <div
           class="bg-purple rounded-3xl main-hero-content mb-6 overflow-hidden"
@@ -52,17 +50,17 @@
           <img src="../assets/main-hero-image1.png" />
         </div>
         <div class="bg-darkGray rounded-3xl main-hero-content overflow-hidden">
-          <img src="../assets/main-hero-image2.png" />
+          <img src="../assets/main-hero-image2.png" class="" />
         </div>
       </div>
       <!-- 2 -->
       <div
-        class="flex flex-col items-center justify-end w-64 h-full -translate-y-32"
+        class="flex flex-col items-center justify-end w-64 h-full translate-y-10"
       >
         <div
           class="bg-darkGray rounded-3xl main-hero-content2 mb-6 overflow-hidden"
         >
-          <img src="../assets/main-hero-image3.png" class="translate-y-20" />
+          <img src="../assets/main-hero-image3.png" />
         </div>
         <div class="bg-purple rounded-3xl main-hero-content2 overflow-hidden">
           <img src="../assets/main-hero-image4.png" />
@@ -70,17 +68,17 @@
       </div>
       <!-- 3-->
       <div
-        class="flex flex-col items-center justify-end w-64 h-full -translate-y-80"
+        class="flex flex-col items-center justify-end w-64 h-full -translate-y-28"
       >
         <div
           class="bg-purple rounded-3xl main-hero-content2 mb-6 overflow-hidden"
         >
-          <img src="../assets/main-hero-image5.png" class="translate-y-20" />
+          <img src="../assets/main-hero-image5.png" class="-translate-y-20" />
         </div>
         <div class="bg-darkGray rounded-3xl main-hero-content2 relative">
           <img
             src="../assets/main-hero-image6.png"
-            class="absolute hero-image"
+            class="absolute hero-image -translate-y-20"
           />
         </div>
       </div>
