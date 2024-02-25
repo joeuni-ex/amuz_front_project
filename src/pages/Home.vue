@@ -21,12 +21,12 @@
         </div>
         <div class="flex mt-16">
           <button
-            class="w-1/2 h-12 md:w-52 md:h-16 md:py-4 mx-2 rounded-full bg-purple text-white text-center md:text-xl"
+            class="w-1/2 h-12 md:w-52 md:h-16 md:py-4 mx-2 rounded-full bg-purple text-white text-center md:text-xl hover:bg-indigo-500"
           >
             회원가입
           </button>
           <button
-            class="w-1/2 h-12 md:w-52 md:h-16 md:py-4 mx-2 rounded-full bg-darkGray text-gray-300 text-center md:text-xl"
+            class="w-1/2 h-12 md:w-52 md:h-16 md:py-4 mx-2 rounded-full bg-darkGray text-gray-300 text-center md:text-xl hover:bg-gray-700"
           >
             로그인
           </button>
@@ -369,7 +369,7 @@
       </div>
       <div class="flex mt-6">
         <button
-          class="w-40 md:w-52 md:h-16 py-4 mx-2 rounded-full bg-purple text-white text-center md:text-xl"
+          class="w-40 md:w-52 md:h-16 py-4 mx-2 rounded-full bg-purple text-white text-center md:text-xl hover:bg-indigo-500"
         >
           메시지 바로가기
         </button>
