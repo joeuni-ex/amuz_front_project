@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-screen sm:h-full xl:h-screen bg-pageBgGray flex flex-1 flex-col items-center pt-20 pb-10 md:pb-0"
+    class="w-full sm:h-full 2xl:h-screen bg-pageBgGray flex flex-1 flex-col items-center pt-20 pb-10 2xl:pb-0"
   >
     <!-- 상단 카테고리 -->
     <Category selectedCategory="크레딧 구매" :categoryList="categoryList" />
