@@ -102,7 +102,7 @@
         </p>
       </div>
 
-      <p class="text-lg text-gray-500 md:text-xl">
+      <p class="text-lg text-gray-500 md:text-xl lg:text-2xl">
         모든 종류의 인터넷 SMS를 편리하게.
       </p>
     </div>
@@ -205,7 +205,7 @@
           기능들을 살펴보세요
         </p>
       </div>
-      <p class="text-lg text-gray-500 md:text-xl">
+      <p class="text-lg text-gray-500 md:text-xl lg:text-2xl">
         고객님들의 입장에서 고민하였습니다.
       </p>
     </div>
@@ -329,7 +329,7 @@
           신뢰할 수 있는 보안까지
         </p>
       </div>
-      <p class="text-lg mt-6 text-gray-500">
+      <p class="text-lg mt-6 text-gray-500 md:text-xl lg:text-2xl">
         고객님들의 간편함을 고민하였습니다
       </p>
     </div>
