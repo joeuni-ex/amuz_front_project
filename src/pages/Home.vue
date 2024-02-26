@@ -215,17 +215,17 @@
         class="flex-wrap flex justify-center md:flex-nowrap md:justify-normal space-y-5 md:space-y-0"
       >
         <div class="main-third-content1 relative md:mx-5 lg:mx-0">
-          <div class="mt-4 space-y-1">
-            <p class="text-xl md:text-2xl lg:text-3xl font-PretendardBold">
+          <div class="mt-4 md:space-y-1 lg:space-y-3">
+            <p class="text-xl md:text-2xl lg:text-4xl font-PretendardBold">
               자주 전송하는 내용이 있나요?
             </p>
             <p
-              class="text-lg md:text-2xl lg:text-3xl font-PretendardBold text-mainGray"
+              class="text-lg md:text-2xl lg:text-4xl font-PretendardBold text-mainGray"
             >
               템플릿으로 메시지 내용을
             </p>
             <p
-              class="text-lg md:text-2xl lg:text-3xl font-PretendardBold text-mainGray"
+              class="text-lg md:text-2xl lg:text-4xl font-PretendardBold text-mainGray"
             >
               저장하여 간편하게 전송하세요.
             </p>
@@ -236,19 +236,19 @@
           />
         </div>
         <div class="main-third-content2 relative">
-          <div class="mt-4 space-y-1">
+          <div class="mt-4 md:space-y-1 lg:space-y-3">
             <p
-              class="text-xl md:text-2xl lg:text-3xl font-PretendardBold gradation-text2"
+              class="text-xl md:text-2xl lg:text-4xl font-PretendardBold gradation-text2"
             >
               크레딧 구매 시, 보너스 크레딧 증정
             </p>
             <p
-              class="text-lg md:text-2xl lg:text-3xl font-PretendardBold text-mainPurple"
+              class="text-lg md:text-2xl lg:text-4xl font-PretendardBold text-mainPurple"
             >
               크레딧 상품을 구매하면 상품 별
             </p>
             <p
-              class="text-lg md:text-2xl lg:text-3xl font-PretendardBold text-mainPurple"
+              class="text-lg md:text-2xl lg:text-4xl font-PretendardBold text-mainPurple"
             >
               보너스 크레딧을 증정합니다
             </p>
@@ -263,19 +263,19 @@
         class="flex-wrap flex justify-center mt-5 space-y-5 md:mt-10 md:flex-nowrap md:justify-normal md:space-y-0"
       >
         <div class="main-third-content3 relative md:mx-5 lg:mx-0">
-          <div class="mt-4 space-y-1">
+          <div class="mt-4 md:space-y-1 lg:space-y-3">
             <p
-              class="text-xl md:text-2xl lg:text-3xl font-PretendardBold text-mainBlue"
+              class="text-xl md:text-2xl lg:text-4xl font-PretendardBold text-mainBlue"
             >
               전송 후 바로 발송확인 기능
             </p>
             <p
-              class="text-lg md:text-2xl lg:text-3xl font-PretendardBold text-mainLightBlue"
+              class="text-lg md:text-2xl lg:text-4xl font-PretendardBold text-mainLightBlue"
             >
               메시지 전송 후 바로 발송현황 창에서
             </p>
             <p
-              class="text-lg md:text-2xl lg:text-3xl font-PretendardBold text-mainLightBlue"
+              class="text-lg md:text-2xl lg:text-4xl font-PretendardBold text-mainLightBlue"
             >
               현재 메시지 전송 현황을 알려드립니다
             </p>
@@ -286,19 +286,19 @@
           />
         </div>
         <div class="main-third-content4 relative">
-          <div class="mt-4 space-y-1">
+          <div class="mt-4 md:space-y-1 lg:space-y-3">
             <p
-              class="text-xl md:text-2xl lg:text-3xl font-PretendardBold text-mainThirdBrown"
+              class="text-xl md:text-2xl lg:text-4xl font-PretendardBold text-mainThirdBrown"
             >
               누르면 바로 전송완료
             </p>
             <p
-              class="text-lg md:text-2xl lg:text-3xl font-PretendardBold text-lightGray"
+              class="text-lg md:text-2xl lg:text-4xl font-PretendardBold text-lightGray"
             >
               누르자마자 수신인에게
             </p>
             <p
-              class="text-lg md:text-2xl lg:text-3xl font-PretendardBold text-lightGray"
+              class="text-lg md:text-2xl lg:text-4xl font-PretendardBold text-lightGray"
             >
               바로 전달됩니다
             </p>
@@ -337,11 +337,11 @@
     <div class="flex flex-wrap justify-center md:flex-nowrap">
       <div class="main-fourth-content1 md:mr-7 lg:mr-0">
         <div class="text-left w-full space-y-3 mt-4">
-          <p class="text-lg md:text-2xl lg:text-3xl font-PretendardBold">
+          <p class="text-lg md:text-2xl lg:text-4xl font-PretendardBold">
             일반 SMS는 기본, 카카오톡까지
           </p>
           <p
-            class="text-lg md:text-2xl lg:text-3xl font-PretendardBold text-gray-600"
+            class="text-lg md:text-2xl lg:text-4xl font-PretendardBold text-gray-600"
           >
             종류와 상관없이 모두 전송해 드립니다
           </p>
@@ -351,17 +351,17 @@
       <div class="main-fourth-content2">
         <div class="text-left space-y-3 mt-4">
           <p
-            class="text-lg md:text-2xl lg:text-3xl font-PretendardBold text-mainBrown"
+            class="text-lg md:text-2xl lg:text-4xl font-PretendardBold text-mainBrown"
           >
             강력한 보안을 제공합니다.
           </p>
           <p
-            class="text-lg md:text-2xl lg:text-3xl font-PretendardBold text-lightBrown"
+            class="text-lg md:text-2xl lg:text-4xl font-PretendardBold text-lightBrown"
           >
             신뢰할 수 있는 최신의 보안 시스템을
           </p>
           <p
-            class="text-lg md:text-2xl lg:text-3xl font-PretendardBold text-lightBrown"
+            class="text-lg md:text-2xl lg:text-4xl font-PretendardBold text-lightBrown"
           >
             적용하여 개인정보를 보호합니다
           </p>
@@ -376,11 +376,11 @@
     </div>
     <div class="main-fourth-content3">
       <div class="text-center space-y-3 mt-4 md:mt-6 lg:mt-16">
-        <p class="text-lg md:text-2xl lg:text-3xl font-PretendardBold">
+        <p class="text-lg md:text-2xl lg:text-4xl font-PretendardBold">
           놀라운 수신율을 경험해 보세요
         </p>
         <p
-          class="text-lg md:text-2xl lg:text-3xl font-PretendardBold text-gray-600"
+          class="text-lg md:text-2xl lg:text-4xl font-PretendardBold text-gray-600"
         >
           샌드고의 정확한 수신율은 99.8%에 달합니다
         </p>
@@ -678,8 +678,8 @@ export default {};
   }
   .main-forth-image2 {
     margin-top: 10px;
-    width: 40%;
-    height: 60%;
+    width: 45%;
+    height: 65%;
   }
   .main-fourth-content3 {
     display: flex;
