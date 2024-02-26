@@ -9,12 +9,12 @@
         >
         <div class="md:space-y-7">
           <p
-            class="gradation-text text-4xl font-PretendardExtraBold md:text-6xl"
+            class="gradation-text3 text-4xl font-PretendardExtraBold md:text-6xl"
           >
             가장 빠르고 안정적인
           </p>
           <p
-            class="gradation-text text-4xl font-PretendardExtraBold md:text-6xl"
+            class="gradation-text3 text-4xl font-PretendardExtraBold md:text-6xl"
           >
             문자 서비스 SENDGO
           </p>
@@ -391,6 +391,12 @@ export default {};
 .gradation-text2 {
   background: transparent linear-gradient(270deg, #6264f6 0%, #7f3add 100%) 0%
     0% no-repeat padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradation-text3 {
+  background: transparent linear-gradient(90deg, #9fbafd 0%, #4e81ff 100%) 0% 0%
+    no-repeat padding-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
