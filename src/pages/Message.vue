@@ -4,21 +4,25 @@
     <Category selectedCategory="메시지 전송" :categoryList="categoryList" />
     <!-- 메시지 페이지 -->
     <div>
-      <div class="message-section mt-14 flex flex-col items-center">
-        <div class="font-PretendardBold text-xl md:text-4xl">메세지 전송</div>
-        <div class="space-x-4 md:space-x-8 mt-9">
+      <div
+        class="message-section mt-14 flex flex-col items-center md:container"
+      >
+        <div class="font-PretendardBold text-xl md:text-3xl lg:text-4xl">
+          메세지 전송
+        </div>
+        <div class="space-x-4 md:space-x-6 lg:space-x-8 mt-9">
           <button
-            class="w-24 h-10 md:w-80 md:h-16 bg-buttonPurple rounded-lg text-sm md:text-xl text-white font-PretendardMedium"
+            class="w-24 h-10 md:w-44 md:h-16 lg:w-80 lg:h-16 bg-buttonPurple rounded-lg text-sm md:text-xl text-white font-PretendardMedium"
           >
             문자 메시지
           </button>
           <button
-            class="w-24 h-10 md:w-80 md:h-16 bg-gray-100 rounded-lg text-sm md:text-xl font-PretendardMedium text-gray-500"
+            class="w-24 h-10 md:w-44 md:h-16 lg:w-80 lg:h-16 bg-gray-100 rounded-lg text-sm md:text-xl font-PretendardMedium text-gray-500"
           >
             알림톡 (카카오)
           </button>
           <button
-            class="w-24 h-10 md:w-80 md:h-16 bg-gray-100 rounded-lg text-sm md:text-xl font-PretendardMedium text-gray-500"
+            class="w-24 h-10 md:w-44 md:h-16 lg:w-80 lg:h-16 bg-gray-100 rounded-lg text-sm md:text-xl font-PretendardMedium text-gray-500"
           >
             친구톡 (카카오)
           </button>
@@ -37,9 +41,9 @@
 
         <!-- 하단 -->
         <div
-          class="flex flex-1 w-full py-9 justify-between border-b border-gray-300"
+          class="flex flex-1 w-full py-9 flex-col items-center lg:flex-row lg:items-stretch justify-between border-b border-gray-300"
         >
-          <div class="w-full md:w-3/5">
+          <div class="w-full lg:w-3/5">
             <!-- 수신번호 -->
             <div class="border-b border-gray-300 space-y-3 pb-8">
               <div class="font-PretendardSemiBold md:text-xl">수신번호</div>
@@ -208,7 +212,7 @@
             </div>
           </div>
           <!-- 오른쪽 스마트폰 카드 -->
-          <div class="hidden md:block">
+          <div class="w-full flex justify-center mt-10 lg:mt-0">
             <div class="phone p-3.5">
               <img
                 src="../assets/message-phone-icon.png"
@@ -222,7 +226,7 @@
           <div class="font-PretendardSemiBold md:text-xl mb-4">발송 설정</div>
           <div class="flex space-x-4">
             <div
-              class="flex justify-center items-center h-10 w-1/2 md:w-1/4 md:h-16 border-2 border-buttonPurple rounded-lg shadow-md cursor-pointer"
+              class="flex justify-center items-center h-10 w-1/2 md:h-14 lg:w-1/4 lg:h-16 border-2 border-buttonPurple rounded-lg shadow-md cursor-pointer"
             >
               <img src="../assets/message-icon8.png" class="mr-1" />
               <span
@@ -231,7 +235,7 @@
               </span>
             </div>
             <div
-              class="flex justify-center items-center h-10 w-1/2 md:w-1/4 md:h-16 bg-gray-100 rounded-lg cursor-pointer"
+              class="flex justify-center items-center h-10 w-1/2 md:h-14 lg:w-1/4 lg:h-16 bg-gray-100 rounded-lg cursor-pointer"
             >
               <img src="../assets/message-icon7.png" class="mr-1" />
               <span class="text-gray-500 md:text-xl font-PretendardMedium mr-5"
@@ -277,8 +281,35 @@ export default {
   padding: 5%;
   margin-bottom: 200px;
 }
+.phone {
+  width: 95%;
+  height: 560px;
+  background: #eaf8ff 0% 0% no-repeat padding-box;
+  border: 5px solid #4d4d4d;
+  border-radius: 22px;
+  opacity: 1;
+  margin-left: 0px;
+  position: sticky;
+  top: 80px;
+  z-index: 1;
+}
 
-@media (min-width: 768px) {
+/* 반응형 */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .phone {
+    width: 401px;
+    height: 775px;
+    background: #eaf8ff 0% 0% no-repeat padding-box;
+    border: 5px solid #4d4d4d;
+    border-radius: 22px;
+    opacity: 1;
+    margin-left: 0px;
+    position: sticky;
+    top: 80px;
+    z-index: 1;
+  }
+}
+@media (min-width: 1025px) {
   .message-section {
     width: 1223px;
     height: 2212px;
