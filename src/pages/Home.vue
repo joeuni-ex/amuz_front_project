@@ -86,7 +86,7 @@
   </div>
   <!-- 메인 두 번째 섹션 -->
   <div
-    class="mt-52 md:mt-0 h-screen bg-white flex flex-1 flex-col justify-center items-center space-y-14"
+    class="mt-52 md:mt-0 h-screen bg-white flex flex-1 flex-col justify-center items-center space-y-16 lg:space-y-20"
   >
     <div class="flex flex-col justify-center items-center space-y-6">
       <img
@@ -189,7 +189,7 @@
   </div>
   <!-- 메인 세 번째 섹션 -->
   <div
-    class="mt-52 flex flex-1 flex-col justify-center items-center w-full md:mt-44"
+    class="mt-52 flex flex-1 flex-col justify-center items-center w-full md:mt-44 space-y-16 lg:space-y-20"
   >
     <!-- 세 번째 섹션 타이틀 -->
     <div class="flex flex-col items-center space-y-6">
@@ -210,7 +210,7 @@
       </p>
     </div>
     <!-- 세 번째 섹션 컨텐츠 -->
-    <div class="mt-8 md:flex flex-col md:mt-24">
+    <div class="mt-8 md:flex flex-col">
       <div
         class="flex-wrap flex justify-center md:flex-nowrap md:justify-normal space-y-5 md:space-y-0"
       >
@@ -313,7 +313,7 @@
   </div>
   <!--메인 네번 째 섹션 -->
   <div
-    class="flex flex-1 flex-col justify-center items-center w-full mt-36 md:mt-60"
+    class="flex flex-1 flex-col justify-center items-center w-full mt-36 md:mt-60 space-y-16 lg:space-y-20"
   >
     <!-- 네번 째 섹션 타이틀 -->
     <div class="flex flex-col items-center space-y-6">
@@ -334,7 +334,7 @@
       </p>
     </div>
     <!-- 네번 째 섹션 컨텐츠 -->
-    <div class="flex mt-14 flex-wrap justify-center md:flex-nowrap">
+    <div class="flex flex-wrap justify-center md:flex-nowrap">
       <div class="main-fourth-content1 md:mr-7 lg:mr-0">
         <div class="text-left w-full space-y-3 mt-4">
           <p class="text-lg md:text-2xl lg:text-3xl font-PretendardBold">
