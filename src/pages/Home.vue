@@ -33,13 +33,13 @@
         </div>
       </div>
       <div
-        class="bg-darkGray rounded-3xl overflow-hidden w-full md:hidden opacity-25 absolute bottom-0 right-0 z-0"
+        class="bg-darkGray rounded-3xl overflow-hidden w-full lg:hidden opacity-25 absolute bottom-0 right-0 z-0"
       >
         <img src="../assets/main-hero-image4.png" class="w-full" />
       </div>
     </div>
     <!-- 오른쪽 (모바일 사이즈에서는 hidden)-->
-    <div class="hidden md:flex w-1/2 h-screen overflow-hidden space-x-8">
+    <div class="hidden xl:flex w-1/2 h-screen overflow-hidden space-x-8">
       <!-- 1 -->
       <div
         class="flex flex-col items-center justify-end w-64 h-full translate-y-36"
