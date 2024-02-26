@@ -282,7 +282,8 @@ export default {
   margin-bottom: 200px;
 }
 .phone {
-  width: 95%;
+  max-width: 350px;
+  width: 85%;
   height: 560px;
   background: #eaf8ff 0% 0% no-repeat padding-box;
   border: 5px solid #4d4d4d;
@@ -298,7 +299,7 @@ export default {
 @media (min-width: 768px) and (max-width: 1024px) {
   .phone {
     width: 401px;
-    height: 775px;
+    height: 660px;
     background: #eaf8ff 0% 0% no-repeat padding-box;
     border: 5px solid #4d4d4d;
     border-radius: 22px;
