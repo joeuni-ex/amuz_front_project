@@ -1,7 +1,5 @@
 # Vue + vite + tailwindCSS
-아뮤즈 프론트 기술 과제 
-
-## 🙋‍♀️지원자 조은이입니다.
+vue 와 tailwindcss를 활용한 프론트 프로젝트
 
 ## 📌실행방법
 `$ npm run dev`
@@ -11,6 +9,6 @@
 - Vue (Vite)
 - tailwindCSS
 
-## [배포 링크](https://joeuni-amuz-project.netlify.app/)
-- https://joeuni-amuz-project.netlify.app/
+## [배포 링크](https://joeuni-vue-project.netlify.app/)
+- https://joeuni-vue-project.netlify.app/
 - 테스트 결과 로딩 중에는 폰트 및 굵기 적용에 시간이 소요되는 듯 합니다.
