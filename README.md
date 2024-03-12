@@ -1,5 +1,5 @@
-# Vue + vite + tailwindCSS
-vue 와 tailwindcss를 활용한 프론트 프로젝트
+# Vue3 + vite + tailwindCSS
+독학으로 공부한 vue3 와 tailwindcss를 활용한 프론트 프로젝트
 
 ## 📌실행방법
 `$ npm run dev`
