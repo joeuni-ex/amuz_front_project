@@ -1,5 +1,12 @@
 # Vue3 + vite + tailwindCSS
-독학으로 공부한 vue3 와 tailwindcss를 활용한 프론트 프로젝트
+독학으로 공부한 vue3 와 tailwindcss를 활용한 반응형 프론트엔드 프로젝트
+
+![image](https://github.com/joeuni-ex/vue3_front_project/assets/141595215/9fe5f5c2-436a-44e2-a882-7c2c90042f5e)
+
+![image](https://github.com/joeuni-ex/vue3_front_project/assets/141595215/0b724e26-3647-4c59-b275-69c4b7f8a942)
+
+![image](https://github.com/joeuni-ex/vue3_front_project/assets/141595215/37a67cef-e614-4ad7-91a0-64b79cd7ebd0)
+
 
 ## 📌실행방법
 `$ npm run dev`
@@ -8,12 +15,7 @@
 **Front-end**
 - Vue (Vite)
 - tailwindCSS
-
-- ![image](https://github.com/joeuni-ex/vue3_front_project/assets/141595215/9fe5f5c2-436a-44e2-a882-7c2c90042f5e)
-
-<반응형>
-- ![image](https://github.com/joeuni-ex/vue3_front_project/assets/141595215/37a67cef-e614-4ad7-91a0-64b79cd7ebd0)
-
+  
 
 
 ## [배포 링크](https://joeuni-vue-project.netlify.app/)
